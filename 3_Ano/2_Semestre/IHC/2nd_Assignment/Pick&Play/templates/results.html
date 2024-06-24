@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick&Play</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.bootstrap5.css">
+
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"></style>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+        <script type="text/javascript">
+
+            // Função que garante que mesmo os browsers que não suportam o formato de calendário date o consigam usar.
+            // Se conseguir usar o date usa as funções abaixo, senão usa o disponibilizados pelos scripts de jquery e modernizr.
+            $(function() {
+                var nativeDateInputIsSupported = Modernizr.inputtypes.date;
+                if (!nativeDateInputIsSupported) {
+                    $("input[type='date']").datepicker();            
+                }
+            });
+        </script>
+
+    </head> 
+    
+    <body class="body">
+        {% block content %}
+        <div class="main" script="width=100%">
+            <!-- !PAGE CONTENT! -->
+            <!-- Cabeçalho--> 
+            <header id="inicio" style="border: 20px solid #ccc; background-color: #ccc;">
+                <div class="row top-nav d-flex justify-content-center">
+                    <div class="col d-flex justify-content-around">
+                        <button onclick="location.href='/';" class="button"><i class="fa fa-house"></i>Home</button>
+                        <div class="form-check form-switch" style="padding-top: 1%;">
+                            <input type="checkbox" class="form-check-input" id="checkbox" onclick="toggleDarkMode()">
+                            <label class="form-check-label" for="checkbox"><p class="theme" style="padding-left: 5px;"><i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i></p></label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            
+                            <button onclick="location.href='/1v1mode';" class="button"><i class="fa fa-handshake"></i>Singleplayer</button>
+                            <button onclick="location.href='/multiplayer';"class="button"><i class="fa fa-users"></i>Multiplayer</button>
+                            <button onclick="location.href='/standings';"class="button"><i class="fa fa-list-ol"></i>Standings</button>
+                            <button id="selectedbtn" class="button"><i class="fa fa-bars"></i>Results</button>
+                            <button onclick="location.href='/stats';" class="button"><i class="fa fa-address-book"></i>Player Stats</button>
+                        </div>
+                        {% if userLogged %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/profile'" class="wallet" disabled><i class="fa fa-wallet"></i>{{ wallet }}€</button>
+                            <button onclick="location.href='/logout'" class="button logged" id="logout"><i class="fa fa-sign-in"></i>Logout</a>
+                            <button onclick="location.href='/profile'" class="button logged"><i class="fa fa-user"></i>Profile</a>
+                        </div>
+                        {% else %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/login'" class="button unlogged"><i class="fa fa-sign-out"></i>Login</a>
+                            <button onclick="location.href='/register'" class="button unlogged"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </header>
+            {% for message in get_flashed_messages() %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}  
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>  
+            {% endfor %}
+            <!--Conteúdo-->
+            <div class="center titulo" style="display: block;"><b>Results</b></div>
+            <div class="continer d-flex justify-content-center">
+                <div class="d-flex flex-column">
+                    <div class="row d-flex justify-content-center">
+                        <div class="text-center">
+                            <form id="dateForm" method="POST" action="/submit-date">
+                                <label for="month">Month:</label>
+                                <select id="month" name="month">
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                </select>
+                            
+                                <label for="day">Day:</label>
+                                <select id="day" name="day">
+                                    <!-- Days will be populated dynamically based on the selected month -->
+                                </select>
+                            
+                                <label for="year">Year:</label>
+                                <select id="year" name="year">
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                </select>
+                            
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center"><h2 style="text-align: center;">{{dateName}}</h2></div>
+                    <div class="row d-flex justify-content-center">
+                        {% if results != {} %}   
+                        {% for date, games in results.items() %}    
+                        <table class="d-flex justify-content-center table table-hover ">
+                            <tbody class="tableBorder">
+                                <tr><th colspan="7" style="background-color: #3f51b5;color:white; text-align: center;">{{ date }}</th></tr>
+                                <tr><th style='background-color: #3f51b5;color:white; text-align: center;'>Home</th><th style='background-color: #3f51b5;color:white; text-align: center;'>Score</th><th style="background-color: #3f51b5; color: white; text-align: center;"></th><th style="background-color: #3f51b5; color: white; text-align: center;">Boxscore</th><th style="background-color: #3f51b5; color: white; text-align: center;"></th><th style='background-color: #3f51b5;color:white; text-align: center;'>Score</th><th style='background-color: #3f51b5;color:white; text-align: center;'>Away</th></tr>
+                            
+                                {% for game in games %}
+                                    {% if game["AwayScore"] == 0 %}
+                                    <tr><td><a class="underline" href="../stats/{{game['HomeShort']}}" target="_blank">{{ game["Home"] }}</a></td><td> </td><td> </td><td> </td><td><a class="underline" href="../stats/{{game['AwayShort']}}" target="_blank">{{ game["Away"] }}</a></td></tr>
+                                    {% else %}
+                                    <tr><td><a class="underline" href="../stats/{{game['HomeShort']}}" target="_blank">{{ game["Home"] }}</a></td><td>{{ game["HomeScore"] }}</td><td><img style="max-height: 40px;max-width: 40px;" src="{{ url_for('static', filename='images/teamLogos/{}.png'.format(game['HomeShort']))}}" class="img"></td><td><a class="underline" href="../game/{{game['Id']}}">Game Stats</a></td><td><img style="max-height: 40px;max-width: 40px;" src="{{ url_for('static', filename='images/teamLogos/{}.png'.format(game['AwayShort']))}}" class="img"></td><td>{{ game["AwayScore"] }}</td><td><a class="underline" href="../stats/{{game['AwayShort']}}" target="_blank">{{ game["Away"] }}</a></td></tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                            {% endfor %}
+                        
+                        {% else %} 
+                        <div class="d-flex justify-content-center">
+                            <h2>For now there are no results here!</h2>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </body>        
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Populate days based on selected month
+            document.getElementById("year").addEventListener('change', function() { 
+                var year = parseInt(this.value);
+                var month = parseInt(document.getElementById('month').value);
+                var daysInMonth = new Date(year, month, 0).getDate(); // Get the number of days in the selected month
+                var daySelect = document.getElementById('day');
+                daySelect.innerHTML = ''; // Clear previous options
+                var start = 1;
+                switch (month) {
+                    case 10:
+                        if(year == 2023) {
+                            start= 24;
+                        } else {
+                            start = daysInMonth+1;
+                        }
+                        break;
+                    case 11:
+                    case 12:
+                        if(year == 2023) {
+                            start= 1;
+                        } else {
+                            start = daysInMonth+1;
+                        }
+                        break;
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                        if(year == 2023) {
+                            start= daysInMonth+1;                        
+                        }
+                        break;
+                }
+
+                for (var i = start; i <= daysInMonth; i++) {
+                    var option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = i;
+                    daySelect.appendChild(option);
+                }
+            });
+            document.getElementById('month').addEventListener('change', function() {
+                var month = parseInt(this.value);
+                var year = parseInt(document.getElementById('year').value);
+                var daysInMonth = new Date(year, month, 0).getDate(); // Get the number of days in the selected month
+                var daySelect = document.getElementById('day');
+                daySelect.innerHTML = ''; // Clear previous options
+                var start = 1;
+                switch (month) {
+                    case 10:
+                        if(year == 2023) {
+                            start= 24;
+                        } else {
+                            start = daysInMonth+1;
+                        }
+                        break;
+                    case 11:
+                    case 12:
+                        if(year == 2023) {
+                            start= 1;
+                        } else {
+                            start = daysInMonth+1;
+                        }
+                        break;
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                        if(year == 2023) {
+                            start= daysInMonth+1;                        
+                        }
+                        break;
+                }
+
+                for (var i = start; i <= daysInMonth; i++) {
+                    var option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = i;
+                    daySelect.appendChild(option);
+                }
+            });
+
+            // Initialize days for October (month with 31 days)
+            var daySelect = document.getElementById('day');
+            for (var i = 1; i <= 15; i++) {
+                var option = document.createElement('option');
+                option.value = i;
+                option.textContent = i;
+                daySelect.appendChild(option);
+            }
+            document.getElementById('year').value = "{{year}}";
+            document.getElementById('month').value = "{{month}}";
+            document.getElementById('day').value = "{{day}}";
+        });
+        if (localStorage.getItem('theme') == 'dark') {
+            toggleDarkMode();
+            if(document.getElementById('checkbox').checked) {
+                localStorage.setItem('checkbox', true);
+            }
+        }
+        function toggleDarkMode() {
+            let isDark = document.body.classList.toggle('darkmode');
+            if (isDark) {
+                toggleDarkMode.checked = true;
+                localStorage.setItem('theme','dark');
+                document.getElementById('checkbox').setAttribute('checked', 'checked');
+                document.getElementById('inicio').style.background = "#222";
+                document.getElementById('inicio').style.border = "20px solid #222";
+                
+            } else {
+                toggleDarkMode.checked = false;
+                localStorage.removeItem('theme', 'dark');
+                document.getElementById('inicio').style.backgroundColor = "#ccc";
+                document.getElementById('inicio').style.border = "20px solid #ccc";
+            }
+        }
+    </script>
+</html>

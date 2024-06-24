@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Andre Drummond",
+            "Link": "https://www.basketball-reference.com/players/d/drumman01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "DeMar DeRozan",
+            "Link": "https://www.basketball-reference.com/players/d/derozde01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Ayo Dosunmu",
+            "Link": "https://www.basketball-reference.com/players/d/dosunay01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Coby White",
+            "Link": "https://www.basketball-reference.com/players/w/whiteco01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Nikola Vu\u010devi\u0107",
+            "Link": "https://www.basketball-reference.com/players/v/vucevni01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Alex Caruso",
+            "Link": "https://www.basketball-reference.com/players/c/carusal01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jevon Carter",
+            "Link": "https://www.basketball-reference.com/players/c/carteje01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Dalen Terry",
+            "Link": "https://www.basketball-reference.com/players/t/terryda01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Torrey Craig",
+            "Link": "https://www.basketball-reference.com/players/c/craigto01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Patrick Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willipa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Julian Phillips",
+            "Link": "https://www.basketball-reference.com/players/p/phillju01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Zach LaVine",
+            "Link": "https://www.basketball-reference.com/players/l/lavinza01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Onuralp Bitim",
+            "Link": "https://www.basketball-reference.com/players/b/bitimon01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Adama Sanogo",
+            "Link": "https://www.basketball-reference.com/players/s/sanogad01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Javonte Green",
+            "Link": "https://www.basketball-reference.com/players/g/greenja02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Andrew Funk",
+            "Link": "https://www.basketball-reference.com/players/f/funkan01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Henri Drell",
+            "Link": "https://www.basketball-reference.com/players/d/drellhe01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Lonzo Ball",
+            "Link": "https://www.basketball-reference.com/players/b/balllo01.html",
+            "Pos": "PG"
+        }
+    ]
+}

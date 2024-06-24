@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <script src="./js/baseurl.js"></script>
+    <script src="./js/register.js"></script>
+</head>
+<body>
+    <div class="container">
+       <div class="form-box">
+            <img src="img/shortlogo.png" alt="Image" class="shortlogo">
+            <h1>Sign up</h1>
+            <form>
+                <div class="input">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input id="nameInput" type="text" placeholder="Name">
+                    </div>
+
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input id="emailInput" type="email" placeholder="Email">
+                    </div>
+
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input id="passwordInput" type="password" placeholder="Password">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-mobile"></i>
+                        <input id="contactInput" type="Contact" placeholder="Contact">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-house"></i>
+                        <input id="addressInput" type="Address" placeholder="Address">
+                    </div>
+            </form>
+       </div>
+
+       <div class="button-field">
+            <button type="button" class="signUp" onclick="register()"><a class="signUP">Sign Up</a></button>
+            <button type="button"><a href="login.html" class="signIN">Sign In</a></button>
+       </div>
+
+    </div>
+</body>
+</html>

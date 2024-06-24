@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./frontpage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+
+    
+    <body>
+
+        <div class="container">
+            <h1 id ='gameName'>HAVEN</h1>
+            <h2 id='Title'>CHOOSE AN OPTION</h1>
+            <button id='game-button'>PLAY</button>
+            <button id='observe-button'>VIEW</button>
+        </div>
+
+        <div class="quote-box">
+            <p class="quote">"Imagination is the beginning of creation. You imagine what you desire, you will what you imagine, and at last, you create what you will."<br>- George Bernard Shaw, 1903.</p>
+        </div>
+        
+        <script>
+            var button = document.getElementById('game-button');
+            button.addEventListener('click', function() {
+              window.location.href = 'play.html';
+            });
+        </script>
+
+        <script>
+            var button = document.getElementById('observe-button');
+            button.addEventListener('click', function() {
+            window.location.href = 'chooseCharacter.html';
+            });
+        </script>
+
+    </body>
+</html>

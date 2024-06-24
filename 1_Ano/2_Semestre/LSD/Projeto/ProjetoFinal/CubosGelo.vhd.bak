@@ -1,0 +1,130 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity CubosGelo is
+	port(	reset 			: in std_logic;
+			clk				: in std_logic;
+			aumentarGelo	: in std_logic;
+			diminuirGelo	: in std_logic;
+			selcubo0 		: out std_logic_vector(3 downto 0);
+			selcubo1 		: out std_logic_vector(3 downto 0);
+			selcubo2 		: out std_logic_vector(3 downto 0);
+			selcubo3 		: out std_logic_vector(3 downto 0);
+end Ofer_Prod;
+
+architecture Behavioral of CubosGelo is
+
+constant Dec_O			: std_logic_vector(3 downto 0) := "1001"; -- O
+	
+	
+	type TState is (START, UMCUBO, ZEROCUBOS , TRESCUBOS, QUATROCUBOS);
+	signal s_currentState, s_nextState : TState;
+
+begin
+	sync_proc : process(clk)
+		begin
+			if (rising_edge(clk)) then
+				if (reset = '1') then
+					s_currentState <= START;
+				else
+					s_currentState <= s_nextState;
+				end if;
+		end if;
+	end process;
+	comb_proc : process(s_currentState,cuboGelo, diminuirGelo, aumentarGelo);
+	begin
+	
+		selcubo0 <= "1111";
+		selcubo1 <= "1111";
+		selcubo2 <= "1111";
+		selcubo3 <= "1111";
+		
+		case (s_currentState) is
+		
+		when START =>
+			cuboGelo = '2';
+			if (cuboGelo = '2') then
+			selcubo0 <= Dec_O;
+			selcubo1 <= Dec_O;
+			
+			if (aumentarGelo = '1') then
+				s_nextState <= TRESCUBOS;
+			elsif (diminuirGelo = '1') then
+				s_nextState <= UMCUBO;
+			else
+				s_nextState <= START;
+			end if;
+		
+		when UMCUBO =>
+			cuboGelo = '1';
+			if (cuboGelo = '1') then
+			selcubo0 <= Dec_O;
+			if (aumentarGelo = '1') then
+				s_nextState <= START;
+			elsif (diminuirGelo = '1') then
+				s_nextState <= ZEROCUBOS;
+			else
+				s_nextState <= UMCUBO;
+			end if;
+			
+			
+			when ZEROCUBOS =>
+			cuboGelo = '0';
+			if (cuboGelo = '0') then
+			
+			if (aumentarGelo = '1') then
+				s_nextState <= UMCUBO;
+			else
+				s_nextState <= ZEROCUBOS;
+			end if;
+			
+		when TRESCUBOS =>
+			cuboGelo = '3';
+			if (cuboGelo = '3') then
+			selcubo0 <= Dec_O;
+			selcubo1 <= Dec_O;
+			selcubo2 <= Dec_0;
+			
+			if (aumentarGelo = '1') then
+				s_nextState <= QUATROCUBOS;
+			elsif (diminuirGelo = '1') then
+				s_nextState <= START;
+			else
+				s_nextState <= TRESCUBOS;
+			end if;
+			
+		when TRESCUBOS =>
+			cuboGelo = '3';
+			if (cuboGelo = '3') then
+			selcubo0 <= Dec_O;
+			selcubo1 <= Dec_O;
+			selcubo2 <= Dec_O;
+			
+			if (aumentarGelo = '1') then
+				s_nextState <= QUATROCUBOS;
+			elsif (diminuirGelo = '1') then
+				s_nextState <= START;
+			else
+				s_nextState <= TRESCUBOS;
+			end if;
+	when QUATROCUBOS =>
+			cuboGelo = '4';
+			if (cuboGelo = '4') then
+			selcubo0 <= Dec_O;
+			selcubo1 <= Dec_O;
+			selcubo2 <= Dec_O;
+			selcubo3 <= Dec_O;
+			
+			if (diminuirGelo = '1') then
+				s_nextState <= TRESCUBOS;
+			else
+				s_nextState <= QUATROCUBOS;
+			end if;
+		
+		end case;
+
+	end process;
+
+end Behavioral;
+
+		

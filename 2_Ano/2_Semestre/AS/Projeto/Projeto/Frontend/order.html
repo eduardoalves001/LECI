@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D WORLD</title>
+    <link rel="stylesheet" href="css/order.css">
+    
+    <script src="./js/baseurl.js"></script>
+    <script src="./js/authRequired.js"></script>
+</head>
+
+<body onload="checkAuth()">
+    <img src="img/fundo11.png" alt="Image" class="fundo">
+    <!-- NAVBAR-->
+    <header>
+        <a href="#" class="logo"><img src="img/3DWorldLogo.png" alt=""></a>
+        <div class="bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="auction.html">Auction</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome to</span>
+            <h1>3D WORLD</h1>
+            <h2>Make your <br>Dreams Real🔥</h2>
+        </div>
+    </section>
+    <section class="opcoes">
+        <form class="form">
+
+            <div class="flex">
+                <label>
+                    <input required="" placeholder="" type="text" class="input">
+                    <span>What are you looking to print?</span>
+                </label>
+
+                <label>
+                    <input required="" placeholder="" type="text" class="input">
+                    <span>Size(Max 50cm)</span>
+                </label>
+            </div>
+
+            <label>
+                <select id="pet-select" class="input">
+                    <option value="" class="options"> </option>
+                    <option value="dog" class="options">Plastic</option>
+                    <option value="cat" class="options">Wood</option>
+                    <option value="hamster" class="options">Ceramic</option>
+                    <option value="parrot" class="options">Metal</option>
+                    <option value="spider" class="options">Resin</option>
+                    <option value="goldfish" class="options">BioInk</option>
+                </select>
+                <span>Material</span>
+            </label>
+
+            <label>
+                <input required="" type="tel" placeholder="" class="input">
+                <span>Quantity</span>
+            </label>
+            <label>
+                <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+                <span>Details</span>
+            </label>
+
+            <button class="fancy" href="#">
+              <span class="top-key"></span>
+              <span class="text"><a href="payment.html">submit</a></span>
+              <span class="bottom-key-1"></span>
+              <span class="bottom-key-2"></span>
+            </button>
+        </form>
+    </section>
+
+</body>
+
+</html>

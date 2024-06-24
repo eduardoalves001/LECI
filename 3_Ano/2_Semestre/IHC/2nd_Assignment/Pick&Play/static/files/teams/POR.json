@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Toumani Camara",
+            "Link": "https://www.basketball-reference.com/players/c/camarto01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jabari Walker",
+            "Link": "https://www.basketball-reference.com/players/w/walkeja01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Matisse Thybulle",
+            "Link": "https://www.basketball-reference.com/players/t/thybuma01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Duop Reath",
+            "Link": "https://www.basketball-reference.com/players/r/reathdu01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Scoot Henderson",
+            "Link": "https://www.basketball-reference.com/players/h/hendesc01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Kris Murray",
+            "Link": "https://www.basketball-reference.com/players/m/murrakr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jerami Grant",
+            "Link": "https://www.basketball-reference.com/players/g/grantje01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Deandre Ayton",
+            "Link": "https://www.basketball-reference.com/players/a/aytonde01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Anfernee Simons",
+            "Link": "https://www.basketball-reference.com/players/s/simonan01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Malcolm Brogdon",
+            "Link": "https://www.basketball-reference.com/players/b/brogdma01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Rayan Rupert",
+            "Link": "https://www.basketball-reference.com/players/r/ruperra01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Shaedon Sharpe",
+            "Link": "https://www.basketball-reference.com/players/s/sharpsh01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Justin Minaya",
+            "Link": "https://www.basketball-reference.com/players/m/minayju01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Dalano Banton",
+            "Link": "https://www.basketball-reference.com/players/b/bantoda01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Ibou Badji",
+            "Link": "https://www.basketball-reference.com/players/b/badjiib01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Moses Brown",
+            "Link": "https://www.basketball-reference.com/players/b/brownmo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Ashton Hagans",
+            "Link": "https://www.basketball-reference.com/players/h/haganas01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Robert Williams",
+            "Link": "https://www.basketball-reference.com/players/w/williro04.html",
+            "Pos": "C"
+        }
+    ]
+}

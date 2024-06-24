@@ -1,0 +1,89 @@
+{
+    "Players": [
+        {
+            "Player": "Klay Thompson",
+            "Link": "https://www.basketball-reference.com/players/t/thompkl01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Stephen Curry",
+            "Link": "https://www.basketball-reference.com/players/c/curryst01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jonathan Kuminga",
+            "Link": "https://www.basketball-reference.com/players/k/kuminjo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kevon Looney",
+            "Link": "https://www.basketball-reference.com/players/l/looneke01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Brandin Podziemski",
+            "Link": "https://www.basketball-reference.com/players/p/podzibr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Andrew Wiggins",
+            "Link": "https://www.basketball-reference.com/players/w/wiggian01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Trayce Jackson-Davis",
+            "Link": "https://www.basketball-reference.com/players/j/jackstr02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Dario \u0160ari\u0107",
+            "Link": "https://www.basketball-reference.com/players/s/saricda01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Moses Moody",
+            "Link": "https://www.basketball-reference.com/players/m/moodymo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Chris Paul",
+            "Link": "https://www.basketball-reference.com/players/p/paulch01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Draymond Green",
+            "Link": "https://www.basketball-reference.com/players/g/greendr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Gary Payton II",
+            "Link": "https://www.basketball-reference.com/players/p/paytoga02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Lester Quinones",
+            "Link": "https://www.basketball-reference.com/players/q/quinole01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Gui Santos",
+            "Link": "https://www.basketball-reference.com/players/s/santogu01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jerome Robinson",
+            "Link": "https://www.basketball-reference.com/players/r/robinje01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Pat Spencer",
+            "Link": "https://www.basketball-reference.com/players/s/spencpa01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Usman Garuba",
+            "Link": "https://www.basketball-reference.com/players/g/garubus01.html",
+            "Pos": "PF"
+        }
+    ]
+}

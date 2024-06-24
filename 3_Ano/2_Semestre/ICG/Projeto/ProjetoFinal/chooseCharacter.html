@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Selection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #38caff;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            text-align: center;
+            border: 3px solid black; 
+            padding: 5px;
+            max-width: 500px;
+            margin: 20px auto;
+            bottom: 5%;
+            height: 650px;
+            background-color: #ffffff;
+        }
+
+        #chooseHero {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        label {
+            margin-right: 20px;
+        }
+
+        #selectCharacterButton {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #characterContainer {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 35px;
+        }
+
+        #characterGif {
+            width: 400px;
+            height: auto;
+        }
+
+        #characterName {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <h1>Choose your Hero</h1>
+
+        <div id="chooseHero">
+            <label>
+                <input type="radio" name="character" value="Percival" onchange="updateCharacter()">
+                Percival
+            </label>
+
+            <label>
+                <input type="radio" name="character" value="Arthur" onchange="updateCharacter()">
+                Arthur
+            </label>
+
+            <label>
+                <input type="radio" name="character" value="Merlin" onchange="updateCharacter()">
+                Merlin
+            </label>
+
+            <label>
+                <input type="radio" name="character" value="Morgana" onchange="updateCharacter()">
+                Morgana
+            </label>
+        </div>
+
+        <div id="characterContainer">
+            <img id="characterGif" src="./gifs/choose.gif" alt="Character GIF">
+            <button id="selectCharacterButton" onclick="confirmSelection()" disabled>Confirm</button>
+        </div>
+           
+    </div>
+
+    <script>
+        const characterGif = document.getElementById('characterGif');
+        const characterName = document.getElementById('characterName');
+        const chooseHero = document.getElementById('chooseHero');
+
+        let characters = [
+            { name: 'Percival', gif: './gifs/percival.gif'},
+            { name: 'Arthur', gif: './gifs/arthur.gif'},
+            { name: 'Merlin', gif: './gifs/merlin.gif'},
+            { name: 'Morgana', gif: './gifs/morgana.gif'}
+        ];
+
+        function updateCharacter() {
+            const selectedCharacter = chooseHero.querySelector('input[name="character"]:checked').value;
+            const character = characters.find(char => char.name === selectedCharacter);
+
+            if (character) {
+                characterGif.src = character.gif;
+                characterName.textContent = character.name;
+            }
+        }
+
+        
+        document.querySelectorAll('input[name="character"]').forEach(radioButton => {
+            radioButton.addEventListener('change', function() {
+                localStorage.setItem('selectedCharacter', this.value);
+                console.log(localStorage.getItem('selectedCharacter'));
+                window.dispatchEvent(new Event('characterSelected'));
+
+                document.getElementById('selectCharacterButton').disabled = false;
+            });
+        });
+
+        function confirmSelection() {
+            window.location.href = 'observe.html';
+        }
+    </script>
+    
+    <div style="text-align: right;"><button id="main-menu-button" style="margin-right: 1%">Back to Main Menu</button></div>
+
+    <script>
+        var backButton = document.getElementById('main-menu-button');
+        backButton.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
+    
+
+    <script src="./src/scene2.js" type="module"></script>
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Konkhmer+Sleokchher&family=Oswald:wght@600;700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #e16c0b;
+    --second-color: #0e5fc2;
+
+}
+
+section {
+    padding: 50px 10%;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: var(--second-color);
+}
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    border-radius: 10%;
+    padding: 15px 10%;
+    transition: 0.2s;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 11px 20px;
+    color: var(--second-color);
+    text-decoration: none;
+
+
+    position: relative;
+    font-weight: 600;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.martelo-wrap {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    height: 300px;
+}
+
+.martelo {
+    height: 100%;
+}
+
+.auction-wrap {
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.auction-wrap h1 {
+    margin-top: 5px;
+}
+
+.auction-wrap a{
+    color: black;
+}
+
+
+.impress-wrap {
+    position: absolute;
+    top: 99%;
+    left: 75%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.create-wrap h1 {
+    margin-top: 5px;
+}
+
+.create-wrap a {
+    color: black;
+}
+
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid var(--second-color);
+    margin-top: 5px;
+}
+
+button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid var(--main-color);
+    box-shadow: 4px 5px 17px -4px #000000;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #efe4e4;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: 1000ms;
+}
+
+button:hover::before {
+    width: 250%;
+}
+
+.button1 {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid var(--second-color);
+}
+
+.impress {
+    height: 100%;
+}

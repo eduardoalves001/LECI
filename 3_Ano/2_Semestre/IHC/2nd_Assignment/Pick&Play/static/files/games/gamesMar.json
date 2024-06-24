@@ -1,0 +1,1444 @@
+{
+    "Mar1": [
+        {
+            "Visitor": "CLE",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "PHI",
+            "Start": "7:00p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "BOS",
+            "Start": "7:30p",
+            "Arena": "TD Garden"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "SAC",
+            "Home": "MIN",
+            "Start": "8:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "NOP",
+            "Start": "8:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "CHI",
+            "Start": "10:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "LAC",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar2": [
+        {
+            "Visitor": "ATL",
+            "Home": "BRK",
+            "Start": "3:00p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "MIA",
+            "Start": "5:00p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "LAL",
+            "Start": "8:30p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "PHO",
+            "Start": "9:00p",
+            "Arena": "Footprint Center"
+        }
+    ],
+    "Mar3": [
+        {
+            "Visitor": "PHI",
+            "Home": "DAL",
+            "Start": "1:00p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "BOS",
+            "Start": "3:30p",
+            "Arena": "TD Garden"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "MIN",
+            "Start": "3:30p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "ORL",
+            "Start": "6:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "TOR",
+            "Start": "6:00p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "CLE",
+            "Start": "7:00p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "SAS",
+            "Start": "7:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "PHO",
+            "Start": "9:30p",
+            "Arena": "Footprint Center"
+        }
+    ],
+    "Mar4": [
+        {
+            "Visitor": "MEM",
+            "Home": "BRK",
+            "Start": "7:30p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "MIL",
+            "Start": "8:00p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "MIN",
+            "Start": "8:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "LAL",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar5": [
+        {
+            "Visitor": "ORL",
+            "Home": "CHO",
+            "Start": "7:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "BRK",
+            "Start": "7:30p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "CLE",
+            "Start": "7:30p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "MIA",
+            "Start": "7:30p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "NYK",
+            "Start": "7:30p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "NOP",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "SAS",
+            "Home": "HOU",
+            "Start": "8:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "DAL",
+            "Start": "8:30p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "DEN",
+            "Start": "10:00p",
+            "Arena": "Ball Arena"
+        }
+    ],
+    "Mar6": [
+        {
+            "Visitor": "ORL",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "CLE",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "HOU",
+            "Start": "7:30p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "PHI",
+            "Start": "7:30p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "GSW",
+            "Start": "10:00p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        },
+        {
+            "Visitor": "SAC",
+            "Home": "LAL",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar7": [
+        {
+            "Visitor": "BRK",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "IND",
+            "Start": "7:00p",
+            "Arena": "Gainbridge Fieldhouse"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "DAL",
+            "Start": "7:30p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "TOR",
+            "Home": "PHO",
+            "Start": "9:00p",
+            "Arena": "Footprint Center"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "DEN",
+            "Start": "10:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "GSW",
+            "Start": "10:00p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "SAS",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar8": [
+        {
+            "Visitor": "NOP",
+            "Home": "PHI",
+            "Start": "7:00p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "CLE",
+            "Start": "7:30p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "ORL",
+            "Home": "NYK",
+            "Start": "7:30p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "OKC",
+            "Start": "8:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "LAL",
+            "Start": "10:00p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar9": [
+        {
+            "Visitor": "CHI",
+            "Home": "LAC",
+            "Start": "4:00p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "CHO",
+            "Start": "7:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "SAS",
+            "Home": "GSW",
+            "Start": "8:30p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "PHO",
+            "Start": "8:30p",
+            "Arena": "Footprint Center"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "DEN",
+            "Start": "9:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "TOR",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar10": [
+        {
+            "Visitor": "MIL",
+            "Home": "LAC",
+            "Start": "3:00p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "NOP",
+            "Home": "ATL",
+            "Start": "6:00p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "MIA",
+            "Start": "6:00p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "ORL",
+            "Start": "6:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "SAC",
+            "Start": "6:00p",
+            "Arena": "Golden 1 Center"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "CLE",
+            "Start": "7:00p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "NYK",
+            "Start": "7:00p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "OKC",
+            "Start": "7:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "LAL",
+            "Start": "9:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar11": [
+        {
+            "Visitor": "CHO",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "CLE",
+            "Start": "7:30p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "TOR",
+            "Home": "DEN",
+            "Start": "9:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "POR",
+            "Start": "10:30p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar12": [
+        {
+            "Visitor": "PHI",
+            "Home": "NYK",
+            "Start": "7:30p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "OKC",
+            "Start": "8:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "SAS",
+            "Start": "8:30p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "LAC",
+            "Start": "10:00p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar13": [
+        {
+            "Visitor": "TOR",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "IND",
+            "Start": "7:30p",
+            "Arena": "Gainbridge Fieldhouse"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "MIA",
+            "Start": "7:30p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "CLE",
+            "Home": "NOP",
+            "Start": "8:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "DAL",
+            "Start": "8:30p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        },
+        {
+            "Visitor": "LAL",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar14": [
+        {
+            "Visitor": "PHO",
+            "Home": "BOS",
+            "Start": "7:30p",
+            "Arena": "TD Garden"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "HOU",
+            "Start": "8:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "MIL",
+            "Start": "8:00p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "OKC",
+            "Start": "10:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar15": [
+        {
+            "Visitor": "PHO",
+            "Home": "CHO",
+            "Start": "7:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "ORL",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "NOP",
+            "Start": "8:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "SAS",
+            "Start": "8:30p",
+            "Arena": "Moody Center"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "UTA",
+            "Start": "9:30p",
+            "Arena": "Delta Center"
+        }
+    ],
+    "Mar16": [
+        {
+            "Visitor": "CLE",
+            "Home": "HOU",
+            "Start": "5:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "IND",
+            "Start": "7:00p",
+            "Arena": "Gainbridge Fieldhouse"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "NOP",
+            "Start": "7:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "PHI",
+            "Start": "7:00p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "LAL",
+            "Start": "8:30p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "UTA",
+            "Start": "9:30p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar17": [
+        {
+            "Visitor": "PHO",
+            "Home": "MIL",
+            "Start": "1:00p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "DET",
+            "Start": "3:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "DAL",
+            "Start": "3:30p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "TOR",
+            "Home": "ORL",
+            "Start": "6:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "WAS",
+            "Start": "6:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "SAS",
+            "Start": "7:00p",
+            "Arena": "Moody Center"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "LAC",
+            "Start": "9:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar18": [
+        {
+            "Visitor": "CLE",
+            "Home": "IND",
+            "Start": "7:00p",
+            "Arena": "Gainbridge Fieldhouse"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "BOS",
+            "Start": "7:30p",
+            "Arena": "TD Garden"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "PHI",
+            "Start": "7:30p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "GSW",
+            "Start": "10:00p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "LAL",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar19": [
+        {
+            "Visitor": "CHO",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "NOP",
+            "Home": "BRK",
+            "Start": "7:30p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "MIN",
+            "Start": "9:00p",
+            "Arena": "Target Center"
+        }
+    ],
+    "Mar20": [
+        {
+            "Visitor": "MIA",
+            "Home": "CLE",
+            "Start": "7:00p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "BOS",
+            "Start": "7:30p",
+            "Arena": "TD Garden"
+        },
+        {
+            "Visitor": "SAC",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "OKC",
+            "Start": "8:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "GSW",
+            "Start": "10:00p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "PHO",
+            "Start": "10:00p",
+            "Arena": "Footprint Center"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar21": [
+        {
+            "Visitor": "NOP",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "SAC",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "HOU",
+            "Start": "8:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "MIL",
+            "Start": "8:00p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "DAL",
+            "Start": "8:30p",
+            "Arena": "American Airlines Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "DEN",
+            "Start": "9:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "ATL",
+            "Home": "PHO",
+            "Start": "10:30p",
+            "Arena": "Footprint Center"
+        }
+    ],
+    "Mar22": [
+        {
+            "Visitor": "BOS",
+            "Home": "DET",
+            "Start": "7:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "TOR",
+            "Start": "7:00p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "NOP",
+            "Home": "MIA",
+            "Start": "8:00p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "CLE",
+            "Home": "MIN",
+            "Start": "8:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "GSW",
+            "Start": "10:00p",
+            "Arena": "Chase Center"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "LAL",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar23": [
+        {
+            "Visitor": "BRK",
+            "Home": "NYK",
+            "Start": "1:00p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "SAC",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "CHO",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "HOU",
+            "Start": "8:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "TOR",
+            "Home": "WAS",
+            "Start": "8:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "DEN",
+            "Home": "POR",
+            "Start": "10:00p",
+            "Arena": "Moda Center"
+        }
+    ],
+    "Mar24": [
+        {
+            "Visitor": "NOP",
+            "Home": "DET",
+            "Start": "3:00p",
+            "Arena": "Little Caesars Arena"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "LAC",
+            "Start": "3:30p",
+            "Arena": "Crypto.com Arena"
+        },
+        {
+            "Visitor": "CLE",
+            "Home": "MIA",
+            "Start": "6:00p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "MIL",
+            "Start": "7:00p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "MIN",
+            "Start": "7:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "LAL",
+            "Start": "10:00p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar25": [
+        {
+            "Visitor": "CHO",
+            "Home": "CLE",
+            "Start": "7:00p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "BOS",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "NYK",
+            "Start": "7:30p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "WAS",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "HOU",
+            "Start": "8:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "DEN",
+            "Start": "9:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "LAC",
+            "Start": "10:30p",
+            "Arena": "Crypto.com Arena"
+        }
+    ],
+    "Mar26": [
+        {
+            "Visitor": "GSW",
+            "Home": "MIA",
+            "Start": "7:30p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "LAL",
+            "Home": "MIL",
+            "Start": "7:30p",
+            "Arena": "Fiserv Forum"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "NOP",
+            "Start": "8:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar27": [
+        {
+            "Visitor": "CLE",
+            "Home": "CHO",
+            "Start": "7:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "BRK",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "PHI",
+            "Start": "7:30p",
+            "Arena": "Wells Fargo Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "TOR",
+            "Start": "7:30p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "IND",
+            "Home": "CHI",
+            "Start": "8:00p",
+            "Arena": "United Center"
+        },
+        {
+            "Visitor": "LAL",
+            "Home": "MEM",
+            "Start": "8:00p",
+            "Arena": "FedEx Forum"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "MIN",
+            "Start": "8:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "OKC",
+            "Start": "8:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "SAS",
+            "Home": "UTA",
+            "Start": "9:00p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "DEN",
+            "Start": "10:00p",
+            "Arena": "Ball Arena"
+        }
+    ],
+    "Mar28": [
+        {
+            "Visitor": "BOS",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "NOP",
+            "Start": "8:00p",
+            "Arena": "Smoothie King Center"
+        }
+    ],
+    "Mar29": [
+        {
+            "Visitor": "GSW",
+            "Home": "CHO",
+            "Start": "7:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "LAL",
+            "Home": "IND",
+            "Start": "7:00p",
+            "Arena": "Gainbridge Fieldhouse"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "DET",
+            "Home": "WAS",
+            "Start": "7:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "BRK",
+            "Start": "7:30p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "CLE",
+            "Start": "7:30p",
+            "Arena": "Rocket Mortgage Fieldhouse"
+        },
+        {
+            "Visitor": "POR",
+            "Home": "MIA",
+            "Start": "8:00p",
+            "Arena": "Kaseya Center"
+        },
+        {
+            "Visitor": "PHO",
+            "Home": "OKC",
+            "Start": "8:00p",
+            "Arena": "Paycom Center"
+        },
+        {
+            "Visitor": "NYK",
+            "Home": "SAS",
+            "Start": "8:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "MIN",
+            "Home": "DEN",
+            "Start": "9:00p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "HOU",
+            "Home": "UTA",
+            "Start": "9:30p",
+            "Arena": "Delta Center"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "SAC",
+            "Start": "10:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ],
+    "Mar30": [
+        {
+            "Visitor": "BOS",
+            "Home": "NOP",
+            "Start": "5:00p",
+            "Arena": "Smoothie King Center"
+        },
+        {
+            "Visitor": "MEM",
+            "Home": "ORL",
+            "Start": "7:00p",
+            "Arena": "Amway Center"
+        },
+        {
+            "Visitor": "MIL",
+            "Home": "ATL",
+            "Start": "7:30p",
+            "Arena": "State Farm Arena"
+        }
+    ],
+    "Mar31": [
+        {
+            "Visitor": "CLE",
+            "Home": "DEN",
+            "Start": "3:30p",
+            "Arena": "Ball Arena"
+        },
+        {
+            "Visitor": "LAL",
+            "Home": "BRK",
+            "Start": "6:00p",
+            "Arena": "Barclays Center"
+        },
+        {
+            "Visitor": "LAC",
+            "Home": "CHO",
+            "Start": "6:00p",
+            "Arena": "Spectrum Center"
+        },
+        {
+            "Visitor": "PHI",
+            "Home": "TOR",
+            "Start": "6:00p",
+            "Arena": "Scotiabank Arena"
+        },
+        {
+            "Visitor": "MIA",
+            "Home": "WAS",
+            "Start": "6:00p",
+            "Arena": "Capital One Arena"
+        },
+        {
+            "Visitor": "DAL",
+            "Home": "HOU",
+            "Start": "7:00p",
+            "Arena": "Toyota Center"
+        },
+        {
+            "Visitor": "CHI",
+            "Home": "MIN",
+            "Start": "7:00p",
+            "Arena": "Target Center"
+        },
+        {
+            "Visitor": "OKC",
+            "Home": "NYK",
+            "Start": "7:00p",
+            "Arena": "Madison Square Garden (IV)"
+        },
+        {
+            "Visitor": "GSW",
+            "Home": "SAS",
+            "Start": "7:00p",
+            "Arena": "Frost Bank Center"
+        },
+        {
+            "Visitor": "UTA",
+            "Home": "SAC",
+            "Start": "9:00p",
+            "Arena": "Golden 1 Center"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+
+State Machine - |Ofer_Prod_Top|CubosGelo:modoGelo_fsm|s_currentState
+Name s_currentState.DOISCUBOS s_currentState.QUATROCUBOS s_currentState.TRESCUBOS s_currentState.ZEROCUBOS s_currentState.UMCUBO s_currentState.INICIO 
+s_currentState.INICIO 0 0 0 0 0 0 
+s_currentState.UMCUBO 0 0 0 0 1 1 
+s_currentState.ZEROCUBOS 0 0 0 1 0 1 
+s_currentState.TRESCUBOS 0 0 1 0 0 1 
+s_currentState.QUATROCUBOS 0 1 0 0 0 1 
+s_currentState.DOISCUBOS 1 0 0 0 0 1 
+
+State Machine - |Ofer_Prod_Top|Ofer_Prod:main_fsm|s_currentState
+Name s_currentState.START_DONE s_currentState.DIS_SPES s_currentState.DIS_SOLI s_currentState.DIS_FAN s_currentState.PREP_SPES s_currentState.PREP_SOLI s_currentState.PREP_FAN s_currentState.EREF s_currentState.START 
+s_currentState.START 0 0 0 0 0 0 0 0 0 
+s_currentState.EREF 0 0 0 0 0 0 0 1 1 
+s_currentState.PREP_FAN 0 0 0 0 0 0 1 0 1 
+s_currentState.PREP_SOLI 0 0 0 0 0 1 0 0 1 
+s_currentState.PREP_SPES 0 0 0 0 1 0 0 0 1 
+s_currentState.DIS_FAN 0 0 0 1 0 0 0 0 1 
+s_currentState.DIS_SOLI 0 0 1 0 0 0 0 0 1 
+s_currentState.DIS_SPES 0 1 0 0 0 0 0 0 1 
+s_currentState.START_DONE 1 0 0 0 0 0 0 0 1 

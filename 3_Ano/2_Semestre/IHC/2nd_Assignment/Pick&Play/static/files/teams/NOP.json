@@ -1,0 +1,89 @@
+{
+    "Players": [
+        {
+            "Player": "Jonas Valan\u010di\u016bnas",
+            "Link": "https://www.basketball-reference.com/players/v/valanjo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Herbert Jones",
+            "Link": "https://www.basketball-reference.com/players/j/joneshe01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jordan Hawkins",
+            "Link": "https://www.basketball-reference.com/players/h/hawkijo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Zion Williamson",
+            "Link": "https://www.basketball-reference.com/players/w/willizi01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Naji Marshall",
+            "Link": "https://www.basketball-reference.com/players/m/marshna01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Brandon Ingram",
+            "Link": "https://www.basketball-reference.com/players/i/ingrabr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "CJ McCollum",
+            "Link": "https://www.basketball-reference.com/players/m/mccolcj01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Larry Nance Jr.",
+            "Link": "https://www.basketball-reference.com/players/n/nancela02.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Dyson Daniels",
+            "Link": "https://www.basketball-reference.com/players/d/daniedy01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Trey Murphy III",
+            "Link": "https://www.basketball-reference.com/players/m/murphtr02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jose Alvarado",
+            "Link": "https://www.basketball-reference.com/players/a/alvarjo01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Cody Zeller",
+            "Link": "https://www.basketball-reference.com/players/z/zelleco01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Jeremiah Robinson-Earl",
+            "Link": "https://www.basketball-reference.com/players/r/robinje02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Matt Ryan",
+            "Link": "https://www.basketball-reference.com/players/r/ryanma01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "E.J. Liddell",
+            "Link": "https://www.basketball-reference.com/players/l/liddeej01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Dereon Seabron",
+            "Link": "https://www.basketball-reference.com/players/s/seabrde01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Malcolm Hill",
+            "Link": "https://www.basketball-reference.com/players/h/hillma01.html",
+            "Pos": "SF"
+        }
+    ]
+}

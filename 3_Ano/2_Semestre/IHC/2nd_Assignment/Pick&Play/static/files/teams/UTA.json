@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Collin Sexton",
+            "Link": "https://www.basketball-reference.com/players/s/sextoco01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Keyonte George",
+            "Link": "https://www.basketball-reference.com/players/g/georgke01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "John Collins",
+            "Link": "https://www.basketball-reference.com/players/c/collijo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kris Dunn",
+            "Link": "https://www.basketball-reference.com/players/d/dunnkr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Walker Kessler",
+            "Link": "https://www.basketball-reference.com/players/k/kesslwa01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Lauri Markkanen",
+            "Link": "https://www.basketball-reference.com/players/m/markkla01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jordan Clarkson",
+            "Link": "https://www.basketball-reference.com/players/c/clarkjo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Talen Horton-Tucker",
+            "Link": "https://www.basketball-reference.com/players/h/hortota01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Omer Yurtseven",
+            "Link": "https://www.basketball-reference.com/players/y/yurtsom01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Luka \u0160amani\u0107",
+            "Link": "https://www.basketball-reference.com/players/s/samanlu01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Taylor Hendricks",
+            "Link": "https://www.basketball-reference.com/players/h/hendrita01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Brice Sensabaugh",
+            "Link": "https://www.basketball-reference.com/players/s/sensabr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Johnny Juzang",
+            "Link": "https://www.basketball-reference.com/players/j/juzanjo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Micah Potter",
+            "Link": "https://www.basketball-reference.com/players/p/pottemi01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kira Lewis Jr.",
+            "Link": "https://www.basketball-reference.com/players/l/lewiski01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jason Preston",
+            "Link": "https://www.basketball-reference.com/players/p/prestja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Darius Bazley",
+            "Link": "https://www.basketball-reference.com/players/b/bazleda01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kenneth Lofton Jr.",
+            "Link": "https://www.basketball-reference.com/players/l/loftoke01.html",
+            "Pos": "PF"
+        }
+    ]
+}

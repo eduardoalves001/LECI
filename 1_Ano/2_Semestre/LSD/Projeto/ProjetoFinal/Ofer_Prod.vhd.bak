@@ -1,0 +1,75 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Ofer_Prod is
+	port(reset		: in  std_logic;
+		  clk			: in  std_logic;
+		  fanta		: in  std_logic;
+		  somu_lim	: in  std_logic;
+		  somu_pes	: in  std_logic;
+		  LEDG		: out std_logic);
+end Ofer_Prod;
+
+architecture Behavioral of Ofer_Prod is
+
+	type TState is (EREF, DIS_FAN, DIS_SOLI, DIS_SPES);
+	signal s_currentState, s_nextState : TState;
+
+begin
+	sync_proc : process(clk)
+	begin
+		if (rising_edge(clk)) then
+			if (reset = '1') then
+				s_currentState <= EREF;
+			else
+				s_currentState <= s_nextState;
+			end if;
+		end if;
+	end process;
+
+	comb_proc : process(s_currentState, LEDG)
+	begin
+		LEDG <= '0';
+		case (s_currentState) is
+		when EREF =>
+			if (fanta = '1') then
+				s_nextState <= DIS_FAN;
+			elsif (somu_lim = '1') then
+				s_nextState <= DIS_SOLI;
+			elsif (somu_pes = '1') then
+				s_nextState <= DIS_SPES;	
+			else	
+				s_nextState <= EREF;
+			end if;
+
+		when DIS_FAN =>
+			LEDG <= '1';
+			if (fanta = '1') then
+				s_nextState <= DIS_FAN;
+			else
+				s_nextState <= EREF;
+			end if;
+		
+		when DIS_SOLI =>
+			LEDG <= '1';
+			if (somu_lim = '1') then
+				s_nextState <= DIS_SOLI;
+			else
+				s_nextState <= EREF;
+			end if;
+			
+		when DIS_SPES =>
+			LEDG <= '1';
+			if (somu_pes = '1') then
+				s_nextState <= DIS_SPES;
+			else
+				s_nextState <= EREF;
+			end if;
+		
+		end case;
+
+	end process;
+
+end Behavioral;
+
+		

@@ -1,0 +1,244 @@
+{
+  "id": "40d65cfa-0772-4e40-972e-5ee2e757c25d",
+  "version": "2.0",
+  "name": "3D World order",
+  "url": "https://3dworld.rui2015.me",
+  "tests": [{
+    "id": "26cd8e74-5cf3-4dc6-aebd-c4eec0f7838d",
+    "name": "encomenda",
+    "commands": [{
+      "id": "f7248cd1-a501-424c-970c-e7b0d76ac938",
+      "comment": "",
+      "command": "open",
+      "target": "/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a88e6f4b-58c1-4cce-816b-c55ab14d8277",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6b44237-2e13-4ee3-aba6-d2d101d04bb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailInput",
+      "targets": [
+        ["id=emailInput", "id"],
+        ["css=#emailInput", "css:finder"],
+        ["xpath=//input[@id='emailInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f29e05d-f8ff-4041-b6ee-05fbb5e9f171",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailInput",
+      "targets": [
+        ["id=emailInput", "id"],
+        ["css=#emailInput", "css:finder"],
+        ["xpath=//input[@id='emailInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "eduardoalves@ua.pt"
+    }, {
+      "id": "80d6f327-f102-47a5-ad47-2c2a0deac28b",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "609e2b28-d2f6-471c-b563-c04d69243f85",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "6f0161ea-c7e6-4e37-95dc-c697e4fd76c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.signin > .signIN", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[@onclick='login()']", "xpath:attributes"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a932f92-78c4-477c-b676-7b7fab840b07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ORDER",
+      "targets": [
+        ["linkText=ORDER", "linkText"],
+        ["css=.button a", "css:finder"],
+        ["xpath=//a[contains(text(),'ORDER')]", "xpath:link"],
+        ["xpath=//section[@id='home']/div[3]/div/button/h1/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'order.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/button/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ORDER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6fb2e0-56a5-4ce8-8cef-afa4963cb36f",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(1) > span",
+      "targets": [
+        ["css=label:nth-child(1) > span", "css:finder"],
+        ["xpath=//label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'What are you looking to print?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f4d9860-c3c9-4974-897a-258a3f3dfa2e",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(1) > .input",
+      "targets": [
+        ["css=label:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bola de Futebol"
+    }, {
+      "id": "764d1a4e-8485-4443-90c0-0349ff51c77b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > label:nth-child(2) > .input",
+      "targets": [
+        ["css=.flex > label:nth-child(2) > .input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0102c453-c8ef-4781-8fd3-e4e03114d837",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > label:nth-child(2) > .input",
+      "targets": [
+        ["css=.flex > label:nth-child(2) > .input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "f49771e7-0722-480b-8de0-8ce20d2d9be9",
+      "comment": "",
+      "command": "click",
+      "target": "id=pet-select",
+      "targets": [
+        ["id=pet-select", "id"],
+        ["css=#pet-select", "css:finder"],
+        ["xpath=//select[@id='pet-select']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0674b3b3-6fb6-4952-94bf-1034be86877d",
+      "comment": "",
+      "command": "select",
+      "target": "id=pet-select",
+      "targets": [],
+      "value": "label=Plastic"
+    }, {
+      "id": "f2b33f6c-f0bb-4c26-9018-e5922374f3bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.options:nth-child(2)",
+      "targets": [
+        ["css=.options:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='dog']", "xpath:attributes"],
+        ["xpath=//select[@id='pet-select']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Plastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0700a7df-acb0-4435-806c-9055d14be4b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3) > .input",
+      "targets": [
+        ["css=label:nth-child(3) > .input", "css:finder"],
+        ["xpath=//input[@type='tel']", "xpath:attributes"],
+        ["xpath=//form/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad73b300-b16d-4c40-a2bc-d5465da2fd90",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(3) > .input",
+      "targets": [
+        ["css=label:nth-child(3) > .input", "css:finder"],
+        ["xpath=//input[@type='tel']", "xpath:attributes"],
+        ["xpath=//form/label[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fd0e68f3-38bb-4dbf-88a0-229b5b352b4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input01",
+      "targets": [
+        ["css=.input01", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0510220-d67c-4466-be12-3cf247ac3e2c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input01",
+      "targets": [
+        ["css=.input01", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Pintas amarelas em vez de pretas"
+    }, {
+      "id": "b68eb942-23af-4421-afdd-13b5bb4c2acf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=submit",
+      "targets": [
+        ["linkText=submit", "linkText"],
+        ["css=.text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'submit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'payment.html')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "10381a76-c7d4-4572-bdc9-f8816a4dae41",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26cd8e74-5cf3-4dc6-aebd-c4eec0f7838d"]
+  }],
+  "urls": ["https://3dworld.rui2015.me/"],
+  "plugins": []
+}

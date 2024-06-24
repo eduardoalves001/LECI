@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap);
+
+
+
+/* Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Phone and Bigger */
+.main-container {
+    font-size: 15px;
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 0 10vw;
+    position: relative;
+    width: auto;
+    height: 100%;
+
+}
+
+.nav-link:hover {
+    color:blue;
+
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: white; 
+    color: black; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+  }
+/* Button with Class CTA styles END */
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+    .main-container {
+        padding: 0 32px;
+        max-width: 960px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1216px) {
+    .main-container {
+        max-width: 1152px;
+    }
+}
+
+/* Desktop Large */
+@media screen and (min-width: 1408px) {
+    .main-container {
+        max-width: 1244px;
+    }
+}

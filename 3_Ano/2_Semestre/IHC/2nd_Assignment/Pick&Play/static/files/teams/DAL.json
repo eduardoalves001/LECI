@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Tim Hardaway Jr.",
+            "Link": "https://www.basketball-reference.com/players/h/hardati02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Derrick Jones Jr.",
+            "Link": "https://www.basketball-reference.com/players/j/jonesde02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jaden Hardy",
+            "Link": "https://www.basketball-reference.com/players/h/hardyja02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Luka Don\u010di\u0107",
+            "Link": "https://www.basketball-reference.com/players/d/doncilu01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Dwight Powell",
+            "Link": "https://www.basketball-reference.com/players/p/poweldw01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Kyrie Irving",
+            "Link": "https://www.basketball-reference.com/players/i/irvinky01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Dereck Lively II",
+            "Link": "https://www.basketball-reference.com/players/l/livelde01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Josh Green",
+            "Link": "https://www.basketball-reference.com/players/g/greenjo02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Dante Exum",
+            "Link": "https://www.basketball-reference.com/players/e/exumda01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Maxi Kleber",
+            "Link": "https://www.basketball-reference.com/players/k/klebima01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "A.J. Lawson",
+            "Link": "https://www.basketball-reference.com/players/l/lawsoaj01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Olivier-Maxence Prosper",
+            "Link": "https://www.basketball-reference.com/players/p/prospol01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "P.J. Washington",
+            "Link": "https://www.basketball-reference.com/players/w/washipj01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Daniel Gafford",
+            "Link": "https://www.basketball-reference.com/players/g/gaffoda01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Markieff Morris",
+            "Link": "https://www.basketball-reference.com/players/m/morrima02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Brandon Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willibr03.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Greg Brown III",
+            "Link": "https://www.basketball-reference.com/players/b/browngr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Alex Fudge",
+            "Link": "https://www.basketball-reference.com/players/f/fudgeal01.html",
+            "Pos": "SF"
+        }
+    ]
+}

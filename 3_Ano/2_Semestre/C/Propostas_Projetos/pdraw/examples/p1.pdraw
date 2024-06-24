@@ -1,0 +1,44 @@
+% A program in pdraw represents a dynamic drawing movie using pens.
+% Each pen has a position in space (canvas); an orientation (degree or radian); a color (least significant 24 bits of an integer); ...
+% Drawing operations are always applied through (object alike) pens, so a programmer should devise a program
+% as if he/she/it is drawing by its own hand(s).
+
+% predefined colors: white, black, green, red, blue, yellow
+% hex integer literal: #DDDDDDDD (32 bits); colors are integers (first 24 bits specify RGB)
+% reserved word background: is the canvas background color
+
+% basic types: int, real, string, point (default values: 0, 0, "", (0,0))
+% also a pen type: pen (default value: undefined)
+% arithmetic operators (applicable to numeric types): 
+%    *  real/int multiplication
+%    /  read division
+%   //  int division (quotient)
+%   \\  int division (remaining)
+
+
+define pen PenType1 {
+   color = green;
+   position = (10,10);
+   orientation = 45º; % literal orientation in degrees (internally is always stored in radians)
+   % orientation = 0; % literal orientation in radians
+   % real PI constant predefined
+   thickness = 10; % default thickness is 1
+   pressure = -1; % up (pressure=-1); down (pressure>=0 and pressure <=1)
+   % pressure = 0; % down
+   % pressure = 1/3; % 1/3 of thickness
+};
+
+pen p1 = new PenType1; % variable p1 can refer to any pen (or none if no creation/assignment involved)
+p1 down; % pen in canvas with pressure 0
+% draw square
+p1 forward 10; % pen p1 advances 10
+p1 left 90º; % pen p1 rotates 90º counterclockwise
+p1 forward 10;
+p1 left 90º;
+p1 forward 10;
+p1 left 90º;
+p1 forward 10;
+p1 left 90º;
+
+pen psec = new; % default pen values
+psec <- execute "p1.ipdraw"; % executes program in runtime (p1.ipdraw is not compiled!)

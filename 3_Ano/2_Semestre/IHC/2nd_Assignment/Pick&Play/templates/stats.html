@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick&Play</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+         -->
+        <!-- Links e scripts para tabelas e ordenar--> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.bootstrap5.css">
+
+        
+        <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.js"></script>
+        <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.bootstrap5.js"></script>
+
+        <script defer src="{{ url_for('static', filename='js/scriptTable.js') }}"></script>
+        <!-- Fim dos Links e scripts para tabelas e ordenar--> 
+    </head> 
+    
+    <body class="body">
+        {% block content %}
+        <div class="main" script="width=100%">
+            <!-- !PAGE CONTENT! -->
+            <!-- Cabeçalho--> 
+            <header id="inicio" style="border: 20px solid #ccc; background-color: #ccc;">
+                <div class="row top-nav d-flex justify-content-center">
+                    <div class="col d-flex justify-content-around">
+                        <button onclick="location.href='/';" class="button"><i class="fa fa-house"></i>Home</button>
+                        <div class="form-check form-switch" style="padding-top: 1%;">
+                            <input type="checkbox" class="form-check-input" id="checkbox" onclick="toggleDarkMode()">
+                            <label class="form-check-label" for="checkbox"><p class="theme" style="padding-left: 5px;"><i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i></p></label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            
+                            <button onclick="location.href='/1v1mode';" class="button"><i class="fa fa-handshake"></i>Singleplayer</button>
+                            <button onclick="location.href='/multiplayer';"class="button"><i class="fa fa-users"></i>Multiplayer</button>
+                            <button onclick="location.href='/standings';"class="button"><i class="fa fa-list-ol"></i>Standings</button>
+                            <button onclick="location.href='/results';" class="button"><i class="fa fa-bars"></i>Results</button>
+                            <button onclick="location.href='/stats';" class="button"><i class="fa fa-address-book"></i>Player Stats</button>
+                        </div>
+                        {% if userLogged %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/profile'" class="wallet" disabled><i class="fa fa-wallet"></i>{{ wallet }}€</button>
+                            <button onclick="location.href='/logout'" class="button logged" id="logout"><i class="fa fa-sign-in"></i>Logout</a>
+                            <button onclick="location.href='/profile'" class="button logged"><i class="fa fa-user"></i>Profile</a>
+                        </div>
+                        {% else %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/login'" class="button unlogged"><i class="fa fa-sign-out"></i>Login</a>
+                            <button onclick="location.href='/register'" class="button unlogged"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </header>
+            {% for message in get_flashed_messages() %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}  
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>  
+            {% endfor %}
+            
+            <!--Conteúdo-->
+            <div class="central titulo" style="background-color: #b1101d; color:white"><b>{{ team["Name"] }}</b></div>
+            <div class="d-flex justify-content-center row">
+                
+                <div class="d-flex justify-content-center row">
+                    <figure class="justify-content-center row">
+                        <img style="max-height: 200px;max-width: 200px;" src="{{ url_for('static', filename='images/teamLogos/{}.png'.format(team['ShortName']))}}" class="img">
+                        <figcaption><h3 class="d-flex justify-content-center">{{ team['ShortName'] }}</h3></figcaption>
+                    </figure>
+                </div>
+
+                <div class="d-flex justify-content-center col">
+                    <h4>Record: {{team["Wins"]}} - {{team["Losses"]}} ({{team["Win%"]}})</h4>
+                </div>
+                
+
+                <div class="row">
+                    <table id= "example" class="table table-striped mx-auto justify-content-center" style="width: 80%;border: 10px solid #3f51b5;border-radius: 5px;">
+                        <thead>
+                            <tr><th style="background-color: #3f51b5;color:white;">Player</th><th style="background-color: #3f51b5;color:white;">Position</th><th style="background-color: #3f51b5;color:white;">Games</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Points per Game')" onmouseout="statName(this, 'PPG')">PPG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Assists per Game')" onmouseout="statName(this, 'APG')">APG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Rebounds per Game')" onmouseout="statName(this, 'RPG')">RPG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Steals per Game')" onmouseout="statName(this, 'SPG')">SPG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Blocks per Game')" onmouseout="statName(this, 'BPG')">BPG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Field Goal Percentage')" onmouseout="statName(this, 'FG%')">FG%</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, '3-Point Percentage')" onmouseout="statName(this, '3P%')">3PT%</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Free Throw Percentage')" onmouseout="statName(this, 'FT%')">FT%</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Fouls Per Game')" onmouseout="statName(this, 'FPG')">FPG</th><th style="background-color: #3f51b5;color:white;" onmouseover="statName(this, 'Turnovers per Game')" onmouseout="statName(this, 'TPG')">TPG</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for player in playerStats %}
+                                {% if player != None %}
+                                <tr><td><a class="underline" href="{{ player['Link'] }}" target="_blank">{{ player["Name"] }}</a></td><td style="text-align: center;">{{ player["Pos"] }}</td><td style="text-align: center;">{{player["Games"]}}</td><td style="text-align: center;" >{{ player["PPG"] }}</td><td style="text-align: center;">{{ player["APG"] }}</td><td style="text-align: center;">{{ player["RPG"] }}</td><td style="text-align: center;">{{ player["SPG"] }}</td><td style="text-align: center;">{{player["BPG"]}}</td><td style="text-align: center;">{{player["FG%"]}}</td><td style="text-align: center;">{{player["3PT%"]}}</td><td style="text-align: center;">{{player["FT%"]}}</td><td style="text-align: center;">{{player["FPG"]}}</td><td style="text-align: center;">{{player["TPG"]}}</td></tr>
+                                {% endif %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </body>        
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+
+        // para que o user possa ordenar as colunas da tabela
+        //https://www.youtube.com/watch?v=EKSPK_Zk9X8&ab_channel=ByteGrad
+
+        if (localStorage.getItem('theme') == 'dark') {
+            toggleDarkMode();
+            if(document.getElementById('checkbox').checked) {
+                localStorage.setItem('checkbox', true);
+            }
+        }
+        function toggleDarkMode() {
+            let isDark = document.body.classList.toggle('darkmode');
+            if (isDark) {
+                toggleDarkMode.checked = true;
+                localStorage.setItem('theme','dark');
+                document.getElementById('checkbox').setAttribute('checked', 'checked');
+                document.getElementById('inicio').style.background = "#222";
+                document.getElementById('inicio').style.border = "20px solid #222";
+                
+            } else {
+                toggleDarkMode.checked = false;
+                localStorage.removeItem('theme', 'dark');
+                document.getElementById('inicio').style.backgroundColor = "#ccc";
+                document.getElementById('inicio').style.border = "20px solid #ccc";
+            }
+        }
+        function statName(element, text) {
+            const originalText = element.textContent;
+            element.addEventListener('mouseenter', function() {
+                element.textContent = text;
+            });
+
+            // Add event listener for mouse leave
+            element.addEventListener('mouseleave', function() {
+                element.textContent = text;
+            });
+
+        }
+    </script>
+</html>

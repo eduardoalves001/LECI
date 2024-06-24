@@ -1,0 +1,77 @@
+define canvas Canvas1 "Example 1" (100,100); % default has no name and size (500,500)
+
+define pen PenType1 {
+   color = green;
+   position = (10,10);
+   orientation = 45º; % literal orientation in degrees (internally is always stored in radians)
+   % orientation = 0; % literal orientation in radians
+   % real PI constant predefined
+   thickness = 10; % default thickness is 1
+   pressure = -1; % up (pressure=-1); down (pressure>=0 and pressure <=1)
+   % pressure = 0; % down
+   % pressure = 1/3; % 1/3 of thickness
+};
+
+pen p1 = new PenType1; % variable p1 can refer to any pen (or none if no creation/assignment involved)
+
+% pen movement operators (relative to its current position and orientation): forward, backward
+% pen (relative) orientation operators: clockwise: right  ;  counterclockwise: left
+% define (absolute) pen attribute operator: <- <attribute> <val> (<- color <val>; <- position <val>; <- orientation <val>; ...)
+
+p1 down; % pen in canvas with pressure 0
+p1 forward 10; % pen p1 advances 10
+p1 <- color red; % set pen color
+p1 left 10; % pen p1 rotated counterclockwise 10 degrees
+p1 backward 10; % pen p1 retreats 10
+p1 <- color  blue;
+p1 right 20; % pen p1 rotated clockwise 10 degrees
+p1 forward 10; % pen p1 retreats 10
+
+int x = 5, y = 10;
+
+p1 <- position (x,y); % pen p1 moves to point position (x,y);
+
+% stdin, stdout, stderr are reserved words.
+x = int(stdin "x: "); % stdin reads text; int(...) converts to integer
+y = int(stdin "y: ");
+
+p1 <-position (x,y);
+
+p1 -> stdout; % write pen information (color, position, orientation, ...) to standard output
+"\n" -> stdout; % write text "\n"
+
+pause 10000; % sleeps 10000 microseconds
+
+p1 forward 10 pause 10000 left 10 forward 20; % operators on pens "return" the pen (thus a pipe alike semantics can be applied for multiple operations)
+
+% draw pentagram:
+
+p1 <- position (0,0);
+p1 down;
+p1 forward 10 right 144º forward 10 right 144º forward 10 right 144º forward 10 right 144º forward 10;
+
+p1 = p1 + (5,5);
+p1 <-color green;
+int i;
+for (i = 0; i < 5; i = i+1) {
+   p1 forward 10 right 144º;
+};
+
+pen pn = new; % pen with default attribute values
+pn <-color blue;
+pn <-thickness 10;
+pn <- pressure 1/2;
+
+int length;
+real angle;
+bool done = false;
+
+until (done) {
+   length = int(stdin "length: ");
+   p1 forward length;
+   angle = real(stdin "rotation angle (degrees): ") * PI / 180;
+   p1 left angle;
+   string t = stdin "finish (y/N)?: ";
+   done = (t == "y") or (t == "Y");
+};
+

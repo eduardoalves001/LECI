@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Dejounte Murray",
+            "Link": "https://www.basketball-reference.com/players/m/murrade01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Bogdan Bogdanovi\u0107",
+            "Link": "https://www.basketball-reference.com/players/b/bogdabo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Clint Capela",
+            "Link": "https://www.basketball-reference.com/players/c/capelca01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Saddiq Bey",
+            "Link": "https://www.basketball-reference.com/players/b/beysa01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Garrison Mathews",
+            "Link": "https://www.basketball-reference.com/players/m/mathega01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Onyeka Okongwu",
+            "Link": "https://www.basketball-reference.com/players/o/okongon01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Jalen Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnsja05.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "De'Andre Hunter",
+            "Link": "https://www.basketball-reference.com/players/h/huntede01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Trae Young",
+            "Link": "https://www.basketball-reference.com/players/y/youngtr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Bruno Fernando",
+            "Link": "https://www.basketball-reference.com/players/f/fernabr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Trent Forrest",
+            "Link": "https://www.basketball-reference.com/players/f/forretr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Wesley Matthews",
+            "Link": "https://www.basketball-reference.com/players/m/matthwe02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "AJ Griffin",
+            "Link": "https://www.basketball-reference.com/players/g/griffaj01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Vit Krejci",
+            "Link": "https://www.basketball-reference.com/players/k/krejcvi01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Kobe Bufkin",
+            "Link": "https://www.basketball-reference.com/players/b/bufkiko01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Seth Lundy",
+            "Link": "https://www.basketball-reference.com/players/l/lundyse01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Dylan Windler",
+            "Link": "https://www.basketball-reference.com/players/w/windldy01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Mouhamed Gueye",
+            "Link": "https://www.basketball-reference.com/players/g/gueyemo02.html",
+            "Pos": "PF"
+        }
+    ]
+}

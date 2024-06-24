@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Obi Toppin",
+            "Link": "https://www.basketball-reference.com/players/t/toppiob01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Myles Turner",
+            "Link": "https://www.basketball-reference.com/players/t/turnemy01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Aaron Nesmith",
+            "Link": "https://www.basketball-reference.com/players/n/nesmiaa01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "T.J. McConnell",
+            "Link": "https://www.basketball-reference.com/players/m/mccontj01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Tyrese Haliburton",
+            "Link": "https://www.basketball-reference.com/players/h/halibty01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Andrew Nembhard",
+            "Link": "https://www.basketball-reference.com/players/n/nembhan01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Bennedict Mathurin",
+            "Link": "https://www.basketball-reference.com/players/m/mathube01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Isaiah Jackson",
+            "Link": "https://www.basketball-reference.com/players/j/jacksis01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Jalen Smith",
+            "Link": "https://www.basketball-reference.com/players/s/smithja04.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Ben Sheppard",
+            "Link": "https://www.basketball-reference.com/players/s/sheppbe01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Pascal Siakam",
+            "Link": "https://www.basketball-reference.com/players/s/siakapa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jarace Walker",
+            "Link": "https://www.basketball-reference.com/players/w/walkeja02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Doug McDermott",
+            "Link": "https://www.basketball-reference.com/players/m/mcderdo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Kendall Brown",
+            "Link": "https://www.basketball-reference.com/players/b/brownke03.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Oscar Tshiebwe",
+            "Link": "https://www.basketball-reference.com/players/t/tshieos01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "James Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnsja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Isaiah Wong",
+            "Link": "https://www.basketball-reference.com/players/w/wongis01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Quenton Jackson",
+            "Link": "https://www.basketball-reference.com/players/j/jacksqu01.html",
+            "Pos": "PG"
+        }
+    ]
+}

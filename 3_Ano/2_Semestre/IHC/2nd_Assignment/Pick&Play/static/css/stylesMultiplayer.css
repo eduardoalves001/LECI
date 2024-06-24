@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+}
+
+.grid-container {
+    display: flex;
+    border-collapse: collapse;
+}
+
+.gameName {
+    background-color: #3f51b5; /* Button background color */
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.grid-item {
+    flex: 0 0 auto; /* Two columns with margin between */
+    border: 5px solid #132033;
+    border-radius: 5px; /* Add button border radius */
+}
+
+.buttonMulti {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for buttons */
+    background-color: #3f51b5; /* Button background color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: white;
+}
+
+.buttonValue {
+    margin: 1%;
+    padding: 10px; /* Padding for buttons */
+    background-color: #3f51b5; /* Button background color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add button border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: white;
+}
+
+.team {
+    text-align: center; /* Center-align team content */
+    border-top: 10px solid #132033;
+}
+
+
+.selected {
+    background-color: rgb(0, 186, 0);
+}
+
+#submitBtn {
+    width: 20%; /* Full width button */
+    padding: 10px; /* Padding for buttons */
+    background-color: grey; /* Button background color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add button border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: white;
+}
+
+

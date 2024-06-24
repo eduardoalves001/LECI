@@ -1,0 +1,104 @@
+{
+    "Players": [
+        {
+            "Player": "Jaren Jackson Jr.",
+            "Link": "https://www.basketball-reference.com/players/j/jacksja02.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Santi Aldama",
+            "Link": "https://www.basketball-reference.com/players/a/aldamsa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "John Konchar",
+            "Link": "https://www.basketball-reference.com/players/k/konchjo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Vince Williams Jr.",
+            "Link": "https://www.basketball-reference.com/players/w/willivi01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Ziaire Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willizi02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "GG Jackson II",
+            "Link": "https://www.basketball-reference.com/players/j/jacksgg01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Desmond Bane",
+            "Link": "https://www.basketball-reference.com/players/b/banede01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Luke Kennard",
+            "Link": "https://www.basketball-reference.com/players/k/kennalu01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jake LaRavia",
+            "Link": "https://www.basketball-reference.com/players/l/laravja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Derrick Rose",
+            "Link": "https://www.basketball-reference.com/players/r/rosede01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Marcus Smart",
+            "Link": "https://www.basketball-reference.com/players/s/smartma01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Lamar Stevens",
+            "Link": "https://www.basketball-reference.com/players/s/stevela01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Trey Jemison",
+            "Link": "https://www.basketball-reference.com/players/j/jemistr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Scotty Pippen Jr.",
+            "Link": "https://www.basketball-reference.com/players/p/pippesc02.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jordan Goodwin",
+            "Link": "https://www.basketball-reference.com/players/g/goodwjo01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Ja Morant",
+            "Link": "https://www.basketball-reference.com/players/m/moranja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "M\u00e3ozinha Pereira",
+            "Link": "https://www.basketball-reference.com/players/p/pereima01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Yuta Watanabe",
+            "Link": "https://www.basketball-reference.com/players/w/watanyu01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Brandon Clarke",
+            "Link": "https://www.basketball-reference.com/players/c/clarkbr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Zavier Simpson",
+            "Link": "https://www.basketball-reference.com/players/s/simpsza01.html",
+            "Pos": "PG"
+        }
+    ]
+}

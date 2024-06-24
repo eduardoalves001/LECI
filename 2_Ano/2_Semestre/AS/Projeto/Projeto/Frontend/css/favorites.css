@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Konkhmer+Sleokchher&family=Oswald:wght@600;700&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #e16c0b;
+    --second-color: #0e5fc2;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: var(--second-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    border-radius: 10%;
+    padding: 15px 10%;
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 11px 20px;
+    color: var(--second-color);
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+#favorites {
+    position: absolute;
+    top: 12%;
+    left: 45%;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    flex-direction: column;
+}
+
+.child {
+    height: 180px;
+    width: 180px;
+}
+
+.child+.child {
+    margin-top: 10%;
+}
+
+.container2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 31%;
+    left: 35%;
+    align-content: center;
+}
+
+.child2 {
+    height: 180px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    padding: 10%;
+}
+
+.child2+.child2 {
+    margin-top: 5%;
+}
+
+#vertical_bar {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    width: 1vw;
+    /* Set the width to 1% of the viewport width */
+    background-color: black;
+    /* Set the background color of the vertical bar */
+    height: 60vh;
+    /* Set the height to 60% of the viewport height */
+}
+
+.container3 {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    flex-direction: column;
+    height: 180px;
+    width: 300px;
+}
+
+.child3 {
+    height: 180px;
+    width: 300px;
+}
+
+.child3+.child3 {
+    margin-top: 50%;
+}
+
+
+.monalisa{
+    border-radius: 10px;
+    border: solid black;
+}
+
+.ring{
+    border-radius: 10px;
+    border: solid black;
+}

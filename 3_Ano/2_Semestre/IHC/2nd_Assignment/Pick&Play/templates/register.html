@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Pick&Play</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body class="body">
+      <div class="main" script="width=100%">
+        <!-- Cabeçalho--> 
+        {% for message in get_flashed_messages() %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}  
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>  
+            {% endfor %}
+          <div class="col d-flex justify-content-center">
+            <form method="POST">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" id="username" class="form-control">
+                <br>
+                
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+                <br>
+                
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" id="password" class="form-control">
+                <br>
+                
+                <label for="password2" class="form-label">Confirm Password</label>
+                <input type="password" name="password2" id="password2" class="form-control">
+                <br>
+                
+                <input type="submit" class="btn btn-primary" value="Register">
+            </form>
+          </div>
+          <div class="col d-flex justify-content-center"  style="margin-top: 2%;">
+            <button onclick="location.href='/'" class="button">Continue as guest</button>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+      if (localStorage.getItem('theme') == 'dark') {
+        toggleDarkMode();
+        if(document.getElementById('checkbox').checked) {
+          localStorage.setItem('checkbox', true);
+        }
+      }
+      function toggleDarkMode() {
+        let isDark = document.body.classList.toggle('darkmode');
+        if (isDark) {
+          toggleDarkMode.checked = true;
+          localStorage.setItem('theme','dark');
+          document.getElementById('checkbox').setAttribute('checked', 'checked');
+
+
+        } else {
+          toggleDarkMode.checked = false;
+          localStorage.removeItem('theme', 'dark');
+        }
+      }
+    </script>
+  </body>
+</html>

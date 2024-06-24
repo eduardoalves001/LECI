@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Mikal Bridges",
+            "Link": "https://www.basketball-reference.com/players/b/bridgmi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Nic Claxton",
+            "Link": "https://www.basketball-reference.com/players/c/claxtni01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Dorian Finney-Smith",
+            "Link": "https://www.basketball-reference.com/players/f/finnedo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Cam Thomas",
+            "Link": "https://www.basketball-reference.com/players/t/thomaca02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Day'Ron Sharpe",
+            "Link": "https://www.basketball-reference.com/players/s/sharpda01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Trendon Watford",
+            "Link": "https://www.basketball-reference.com/players/w/watfotr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Cameron Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnsca02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Dennis Smith Jr.",
+            "Link": "https://www.basketball-reference.com/players/s/smithde03.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Lonnie Walker IV",
+            "Link": "https://www.basketball-reference.com/players/w/walkelo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jalen Wilson",
+            "Link": "https://www.basketball-reference.com/players/w/wilsoja03.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Dennis Schr\u00f6der",
+            "Link": "https://www.basketball-reference.com/players/s/schrode01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Noah Clowney",
+            "Link": "https://www.basketball-reference.com/players/c/clownno01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Ben Simmons",
+            "Link": "https://www.basketball-reference.com/players/s/simmobe01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Keita Bates-Diop",
+            "Link": "https://www.basketball-reference.com/players/b/bateske01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Keon Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnske07.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Dariq Whitehead",
+            "Link": "https://www.basketball-reference.com/players/w/whiteda01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jacob Gilyard",
+            "Link": "https://www.basketball-reference.com/players/g/gilyaja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jaylen Martin",
+            "Link": "https://www.basketball-reference.com/players/m/martija02.html",
+            "Pos": "SF"
+        }
+    ]
+}

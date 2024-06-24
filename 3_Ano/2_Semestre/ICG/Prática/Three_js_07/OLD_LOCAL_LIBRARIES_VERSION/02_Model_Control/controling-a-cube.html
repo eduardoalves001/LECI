@@ -1,0 +1,105 @@
+<html>
+
+<!--
+	Adapted from Paulo Dias
+	J. Madeira, June 2021
+-->
+
+<head>
+	<title>Controling a model - Example</title>
+	<style>
+		canvas {
+			width: 100%;
+			height: 100%
+		}
+	</style>
+</head>
+
+<body>
+	<script src="../libs/three.js"></script>
+
+	<script>
+		var scene = new THREE.Scene();
+
+		var aspect = window.innerWidth / window.innerHeight;
+		var camera = new THREE.PerspectiveCamera(75, aspect, 0.1, 1000);
+
+		var renderer = new THREE.WebGLRenderer();
+		renderer.setSize(window.innerWidth, window.innerHeight);
+		document.body.appendChild(renderer.domElement);
+
+		var geometry = new THREE.BoxGeometry(1, 1, 1);
+
+		var material = new THREE.MeshPhongMaterial({
+			color: '#00abb1',
+			emissive: '#006063',
+			//ambient: '#006063',
+			specular: '#a9fcff',
+			shininess: 1.5
+		});
+
+		var cube = new THREE.Mesh(geometry, material);
+		scene.add(cube);
+
+		var light = new THREE.DirectionalLight(0xffffff, 1.5);
+		light.position.set(0, 5, 0);
+		scene.add(light);
+
+		camera.position.z = 5;
+
+		// user interaction
+		var drag = false;
+		var phi = 0, theta = 0;
+		var old_x, old_y;
+
+		var mouseDown = function (e) {
+			drag = true;
+			old_x = e.pageX, old_y = e.pageY;
+			e.preventDefault();
+			return false;
+		}
+
+		var mouseUp = function (e) {
+			drag = false;
+		}
+
+		var mouseMove = function (e) {
+			if (!drag) return false;
+			var dX = e.pageX - old_x,
+				dY = e.pageY - old_y;
+			// update rotation angles
+			theta += dX * 2 * Math.PI / window.innerWidth;
+			phi += dY * 2 * Math.PI / window.innerHeight;
+			old_x = e.pageX, old_y = e.pageY;
+			e.preventDefault();
+		}
+
+		renderer.domElement.addEventListener("mousedown", mouseDown);
+		renderer.domElement.addEventListener("mouseup", mouseUp);
+		renderer.domElement.addEventListener("mousemove", mouseMove);
+
+		window.addEventListener('resize', function () {
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			var aspect = window.innerWidth / window.innerHeight;
+			camera.aspect = aspect;
+			camera.updateProjectionMatrix();
+		});
+
+		// rendering
+
+		var render = function () {
+			requestAnimationFrame(render);
+
+			// set rotation angles
+			cube.rotation.x = phi;
+			cube.rotation.y = theta;
+
+			renderer.render(scene, camera);
+		};
+
+		render();
+
+	</script>
+</body>
+
+</html>

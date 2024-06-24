@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Bobby Portis",
+            "Link": "https://www.basketball-reference.com/players/p/portibo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Brook Lopez",
+            "Link": "https://www.basketball-reference.com/players/l/lopezbr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Malik Beasley",
+            "Link": "https://www.basketball-reference.com/players/b/beaslma01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Giannis Antetokounmpo",
+            "Link": "https://www.basketball-reference.com/players/a/antetgi01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Pat Connaughton",
+            "Link": "https://www.basketball-reference.com/players/c/connapa01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Damian Lillard",
+            "Link": "https://www.basketball-reference.com/players/l/lillada01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "A.J. Green",
+            "Link": "https://www.basketball-reference.com/players/g/greenaj01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Andre Jackson Jr.",
+            "Link": "https://www.basketball-reference.com/players/j/jacksan01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Khris Middleton",
+            "Link": "https://www.basketball-reference.com/players/m/middlkh01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jae Crowder",
+            "Link": "https://www.basketball-reference.com/players/c/crowdja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "MarJon Beauchamp",
+            "Link": "https://www.basketball-reference.com/players/b/beaucma01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Thanasis Antetokounmpo",
+            "Link": "https://www.basketball-reference.com/players/a/antetth01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Patrick Beverley",
+            "Link": "https://www.basketball-reference.com/players/b/beverpa01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Chris Livingston",
+            "Link": "https://www.basketball-reference.com/players/l/livinch01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Danilo Gallinari",
+            "Link": "https://www.basketball-reference.com/players/g/gallida01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "TyTy Washington Jr.",
+            "Link": "https://www.basketball-reference.com/players/w/washity02.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Ryan Rollins",
+            "Link": "https://www.basketball-reference.com/players/r/rolliry01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jaylin Galloway",
+            "Link": "https://www.basketball-reference.com/players/g/galloja01.html",
+            "Pos": "SF"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Cole Anthony",
+            "Link": "https://www.basketball-reference.com/players/a/anthoco01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Paolo Banchero",
+            "Link": "https://www.basketball-reference.com/players/b/banchpa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Moritz Wagner",
+            "Link": "https://www.basketball-reference.com/players/w/wagnemo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Jalen Suggs",
+            "Link": "https://www.basketball-reference.com/players/s/suggsja01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Franz Wagner",
+            "Link": "https://www.basketball-reference.com/players/w/wagnefr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Anthony Black",
+            "Link": "https://www.basketball-reference.com/players/b/blackan01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Joe Ingles",
+            "Link": "https://www.basketball-reference.com/players/i/inglejo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Goga Bitadze",
+            "Link": "https://www.basketball-reference.com/players/b/bitadgo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Caleb Houstan",
+            "Link": "https://www.basketball-reference.com/players/h/houstca01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jonathan Isaac",
+            "Link": "https://www.basketball-reference.com/players/i/isaacjo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Wendell Carter Jr.",
+            "Link": "https://www.basketball-reference.com/players/c/cartewe01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Gary Harris",
+            "Link": "https://www.basketball-reference.com/players/h/harriga01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Chuma Okeke",
+            "Link": "https://www.basketball-reference.com/players/o/okekech01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Markelle Fultz",
+            "Link": "https://www.basketball-reference.com/players/f/fultzma01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Admiral Schofield",
+            "Link": "https://www.basketball-reference.com/players/s/schofad01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jett Howard",
+            "Link": "https://www.basketball-reference.com/players/h/howarje01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Trevelin Queen",
+            "Link": "https://www.basketball-reference.com/players/q/queentr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Kevon Harris",
+            "Link": "https://www.basketball-reference.com/players/h/harrike01.html",
+            "Pos": "SG"
+        }
+    ]
+}

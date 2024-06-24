@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Konkhmer+Sleokchher&family=Oswald:wght@600;700&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #e16c0b;
+    --second-color: #0e5fc2;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+body {
+    overflow: hidden;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: var(--second-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    border-radius: 10%;
+    padding: 15px 10%;
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 11px 20px;
+    color: var(--second-color);
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.row {
+    display: flex;
+}
+
+.column2 {
+    top: 0;
+    flex: 1;
+    padding: 0 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.h5 {
+    top: 0;
+    flex: 1;
+    padding: 0px;
+    margin-top: 9%;
+    margin-left: 13%;
+    margin-bottom: 0%;
+    color: #0e5fc2;
+    font-size: 30px;
+}
+
+.divider {
+    border-left: 1px solid black;
+    height: 100%;
+    margin: 20px 0;
+    /* Adjust the margin as needed */
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 18%;
+}
+
+.btn:hover>.icon {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.btn:focus>.icon {
+    fill: #fd1853;
+    animation: grosseur .2s linear;
+}
+
+@keyframes grosseur {
+    0% {
+        width: 50px;
+        height: 50px;
+        fill: #fd1853;
+    }
+    100% {
+        width: 30px;
+        height: 30px;
+        fill: #fd1853;
+    }
+}
+
+.bid {
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    position: absolute;
+    left: 10%;
+}
+
+.bid #bidHistory {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bidHistory li {
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    color: white;
+}
+
+.bid #label_bid {
+    position: absolute;
+    left: -70%;
+    top: 50%;
+    font-weight: 100;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.fundo {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    z-index: -1;
+}
+
+.balance_display {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#balance {
+    position: relative;
+    left: 30%;
+}
+
+#€ {
+    position: absolute;
+    top: 24%;
+    left: 58%;
+}
+
+.balance_button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: var(--second-color);
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-left: 26%;
+}
+
+.balance_button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.balance_button:hover {
+    color: #e8e8e8;
+}
+
+.balance_button:hover::before {
+    width: 100%;
+}
+
+.balance_button a {
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.card h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, var(--main-color), var(--second-color));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    background: #000000;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 95%;
+    height: 96%;
+    border-radius: 10px;
+    position: relative;
+    /* Add this line */
+    z-index: 2;
+    /* Add this line */
+}
+
+.submit {
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+}
+
+.submit:hover {
+    background-color: var(--main-color);
+}
+
+.submit:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background: rgb(249, 248, 248);
+    box-shadow: 15px 15px 30px var(--second-color), -15px -15px 30px var(--main-color);
+    margin-top: -12%;
+    left: 70%;
+    position: absolute;
+}
+
+.balance2 {
+    margin-left: 38%;
+}

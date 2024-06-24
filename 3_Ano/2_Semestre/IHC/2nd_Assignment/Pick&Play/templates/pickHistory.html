@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick&Play</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.bootstrap5.css">
+    </head> 
+    
+    <body class="body">
+        {% block content %}
+        <div class="main" script="width=100%">
+            <!-- !PAGE CONTENT! -->
+            <!-- Cabeçalho--> 
+            
+            <header id="inicio" style="border: 20px solid #ccc; background-color: #ccc;">
+                <div class="row top-nav d-flex justify-content-center">
+                    <div class="col d-flex justify-content-around">
+                        <button class="button" onclick="location.href='/'"><i class="fa fa-house"></i>Home</button>
+                        <div class="form-check form-switch">
+                            <input type="checkbox" class="form-check-input" id="checkbox" onclick="toggleDarkMode()">
+                            <label class="form-check-label" for="checkbox"><p class="theme" style="padding-left: 5px;"><i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i></p></label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            
+                            <button onclick="location.href='/1v1mode';" class="button"><i class="fa fa-handshake"></i>Singleplayer</button>
+                            <button onclick="location.href='/multiplayer';"class="button"><i class="fa fa-users"></i>Multiplayer</button>
+                            <button onclick="location.href='/standings';"class="button"><i class="fa fa-list-ol"></i>Standings</button>
+                            <button onclick="location.href='/results';" class="button"><i class="fa fa-bars"></i>Results</button>
+                            <button onclick="location.href='/stats';" class="button"><i class="fa fa-address-book"></i>Player Stats</button>
+                        </div>
+                        {% if userLogged %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/profile'" class="wallet" disabled><i class="fa fa-wallet"></i>{{ wallet }}€</button>
+                            <button onclick="location.href='/logout'" class="button logged" id="logout"><i class="fa fa-sign-in"></i>Logout</a>
+                            <button onclick="location.href='/profile'" class="button logged"><i class="fa fa-user"></i>Profile</a>
+                        </div>
+                        {% else %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/login'" class="button unlogged"><i class="fa fa-sign-out"></i>Login</a>
+                            <button onclick="location.href='/register'" class="button unlogged"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </header>
+            
+
+            {% for message in get_flashed_messages() %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}  
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>  
+            {% endfor %}
+            <!--Conteúdo-->
+            <div class="d-flex justify-content-center">
+                <h1>Your pick history</h1>
+            </div>
+            <div class="container">
+                <div class="col">
+                    {% for pick in MPicks.keys() %}
+                    <table class="d-flex justify-content-center table table-bordered">
+                        <tbody class="tableBorder">
+                        <tr><th colspan="{{ MPicks[pick]|length+1 }}" style="text-align: center; background-color: #3f51b5; color: white;">{{pick}}</th></tr>
+                        <tr>
+                            <td style="background-color: #3f51b5; color: white;">Game</td>
+                            {% for game in MPicks[pick] %}
+                            {% if MPicks[pick][game]['Correct'] == None %}
+                            <td>{{MPicks[pick][game]['Game']}}</td>
+                            {% else %}
+                            <td><a class="underline" href="../game/{{ MPicks[pick][game]['GameId'] }}" target="_blank">{{MPicks[pick][game]['Game']}}</a></td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>    
+                        <tr>
+                            <td style="background-color: #3f51b5; color: white;">Your Pick</td>
+                            {% for game in MPicks[pick] %}
+                            {% if MPicks[pick][game]['Correct'] == None %}
+                            <td>{{MPicks[pick][game]['Winner']}}</td>
+                            {% elif MPicks[pick][game]['Correct'] == MPicks[pick][game]['Winner'] %}
+                            <td style="background-color: #00ba00; color: white;">{{MPicks[pick][game]['Winner']}}</td>
+                            {% else %}
+                            <td style="background-color: #b1101d; color: white;">{{MPicks[pick][game]['Winner']}}</td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
+                        </tbody>
+                    </table>
+                    {% endfor %}
+                </div>
+                
+            </div>
+        {% endblock %}
+    </body>        
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        if (localStorage.getItem('theme') == 'dark') {
+            toggleDarkMode();
+            if(document.getElementById('checkbox').checked) {
+                localStorage.setItem('checkbox', true);
+            }
+        }
+        function toggleDarkMode() {
+            let isDark = document.body.classList.toggle('darkmode');
+            if (isDark) {
+                toggleDarkMode.checked = true;
+                localStorage.setItem('theme','dark');
+                document.getElementById('checkbox').setAttribute('checked', 'checked');
+                document.getElementById('inicio').style.background = "#222";
+                document.getElementById('inicio').style.border = "20px solid #222";
+                
+            } else {
+                toggleDarkMode.checked = false;
+                localStorage.removeItem('theme', 'dark');
+                document.getElementById('inicio').style.backgroundColor = "#ccc";
+                document.getElementById('inicio').style.border = "20px solid #ccc";
+            }
+        }
+    </script>
+</html>

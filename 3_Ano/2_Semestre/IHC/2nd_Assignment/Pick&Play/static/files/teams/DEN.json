@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Reggie Jackson",
+            "Link": "https://www.basketball-reference.com/players/j/jacksre01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Christian Braun",
+            "Link": "https://www.basketball-reference.com/players/b/braunch01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Michael Porter Jr.",
+            "Link": "https://www.basketball-reference.com/players/p/portemi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Peyton Watson",
+            "Link": "https://www.basketball-reference.com/players/w/watsope01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Nikola Joki\u0107",
+            "Link": "https://www.basketball-reference.com/players/j/jokicni01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Kentavious Caldwell-Pope",
+            "Link": "https://www.basketball-reference.com/players/c/caldwke01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Aaron Gordon",
+            "Link": "https://www.basketball-reference.com/players/g/gordoaa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jamal Murray",
+            "Link": "https://www.basketball-reference.com/players/m/murraja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Justin Holiday",
+            "Link": "https://www.basketball-reference.com/players/h/holidju01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Zeke Nnaji",
+            "Link": "https://www.basketball-reference.com/players/n/nnajize01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Julian Strawther",
+            "Link": "https://www.basketball-reference.com/players/s/strawju01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "DeAndre Jordan",
+            "Link": "https://www.basketball-reference.com/players/j/jordade01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Collin Gillespie",
+            "Link": "https://www.basketball-reference.com/players/g/gilleco01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jalen Pickett",
+            "Link": "https://www.basketball-reference.com/players/p/pickeja02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Braxton Key",
+            "Link": "https://www.basketball-reference.com/players/k/keybr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jay Huff",
+            "Link": "https://www.basketball-reference.com/players/h/huffja01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Hunter Tyson",
+            "Link": "https://www.basketball-reference.com/players/t/tysonhu01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Vlatko \u010can\u010dar",
+            "Link": "https://www.basketball-reference.com/players/c/cancavl01.html",
+            "Pos": "PF"
+        }
+    ]
+}

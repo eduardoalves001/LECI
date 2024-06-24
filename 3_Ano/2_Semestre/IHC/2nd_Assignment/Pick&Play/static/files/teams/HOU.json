@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Jalen Green",
+            "Link": "https://www.basketball-reference.com/players/g/greenja05.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Aaron Holiday",
+            "Link": "https://www.basketball-reference.com/players/h/holidaa01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jeff Green",
+            "Link": "https://www.basketball-reference.com/players/g/greenje02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jabari Smith Jr.",
+            "Link": "https://www.basketball-reference.com/players/s/smithja05.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Fred VanVleet",
+            "Link": "https://www.basketball-reference.com/players/v/vanvlfr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Dillon Brooks",
+            "Link": "https://www.basketball-reference.com/players/b/brookdi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jae'Sean Tate",
+            "Link": "https://www.basketball-reference.com/players/t/tateja01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Alperen Sengun",
+            "Link": "https://www.basketball-reference.com/players/s/sengual01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Amen Thompson",
+            "Link": "https://www.basketball-reference.com/players/t/thompam01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jock Landale",
+            "Link": "https://www.basketball-reference.com/players/l/landajo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Cam Whitmore",
+            "Link": "https://www.basketball-reference.com/players/w/whitmca01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Reggie Bullock",
+            "Link": "https://www.basketball-reference.com/players/b/bullore01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Tari Eason",
+            "Link": "https://www.basketball-reference.com/players/e/easonta01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jeenathan Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willije02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Boban Marjanovi\u0107",
+            "Link": "https://www.basketball-reference.com/players/m/marjabo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Nate Hinton",
+            "Link": "https://www.basketball-reference.com/players/h/hintona01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jermaine Samuels",
+            "Link": "https://www.basketball-reference.com/players/s/samueje01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Steven Adams",
+            "Link": "https://www.basketball-reference.com/players/a/adamsst01.html",
+            "Pos": "C"
+        }
+    ]
+}

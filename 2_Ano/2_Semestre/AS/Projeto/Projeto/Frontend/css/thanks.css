@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Konkhmer+Sleokchher&family=Oswald:wght@600;700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #e16c0b;
+    --second-color: #0e5fc2;
+
+}
+
+section {
+    padding: 50px 10%;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: var(--second-color);
+}
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    border-radius: 10%;
+    padding: 15px 10%;
+    transition: 0.2s;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 11px 20px;
+    color: var(--second-color);
+    text-decoration: none;
+
+
+    position: relative;
+    font-weight: 600;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the container height to fill the entire viewport */
+}
+
+.logo-and-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.shortlogo {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

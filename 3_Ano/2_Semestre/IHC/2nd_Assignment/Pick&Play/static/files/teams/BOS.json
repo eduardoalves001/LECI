@@ -1,0 +1,89 @@
+{
+    "Players": [
+        {
+            "Player": "Payton Pritchard",
+            "Link": "https://www.basketball-reference.com/players/p/pritcpa01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Sam Hauser",
+            "Link": "https://www.basketball-reference.com/players/h/hausesa01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jayson Tatum",
+            "Link": "https://www.basketball-reference.com/players/t/tatumja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Derrick White",
+            "Link": "https://www.basketball-reference.com/players/w/whitede01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jaylen Brown",
+            "Link": "https://www.basketball-reference.com/players/b/brownja02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jrue Holiday",
+            "Link": "https://www.basketball-reference.com/players/h/holidjr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Al Horford",
+            "Link": "https://www.basketball-reference.com/players/h/horfoal01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Luke Kornet",
+            "Link": "https://www.basketball-reference.com/players/k/kornelu01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Kristaps Porzi\u0146\u0123is",
+            "Link": "https://www.basketball-reference.com/players/p/porzikr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Oshae Brissett",
+            "Link": "https://www.basketball-reference.com/players/b/brissos01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Svi Mykhailiuk",
+            "Link": "https://www.basketball-reference.com/players/m/mykhasv01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Neemias Queta",
+            "Link": "https://www.basketball-reference.com/players/q/quetane01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Xavier Tillman Sr.",
+            "Link": "https://www.basketball-reference.com/players/t/tillmxa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jaden Springer",
+            "Link": "https://www.basketball-reference.com/players/s/sprinja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jordan Walsh",
+            "Link": "https://www.basketball-reference.com/players/w/walshjo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "JD Davison",
+            "Link": "https://www.basketball-reference.com/players/d/davisjd01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Drew Peterson",
+            "Link": "https://www.basketball-reference.com/players/p/peterdr01.html",
+            "Pos": "PF"
+        }
+    ]
+}

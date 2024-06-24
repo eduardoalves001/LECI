@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Norman Powell",
+            "Link": "https://www.basketball-reference.com/players/p/powelno01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Paul George",
+            "Link": "https://www.basketball-reference.com/players/g/georgpa01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "James Harden",
+            "Link": "https://www.basketball-reference.com/players/h/hardeja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Terance Mann",
+            "Link": "https://www.basketball-reference.com/players/m/mannte01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Kawhi Leonard",
+            "Link": "https://www.basketball-reference.com/players/l/leonaka01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Ivica Zubac",
+            "Link": "https://www.basketball-reference.com/players/z/zubaciv01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Russell Westbrook",
+            "Link": "https://www.basketball-reference.com/players/w/westbru01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Amir Coffey",
+            "Link": "https://www.basketball-reference.com/players/c/coffeam01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Daniel Theis",
+            "Link": "https://www.basketball-reference.com/players/t/theisda01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Mason Plumlee",
+            "Link": "https://www.basketball-reference.com/players/p/plumlma01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Kobe Brown",
+            "Link": "https://www.basketball-reference.com/players/b/brownko01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Bones Hyland",
+            "Link": "https://www.basketball-reference.com/players/h/hylanbo01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Brandon Boston Jr.",
+            "Link": "https://www.basketball-reference.com/players/b/bostobr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "P.J. Tucker",
+            "Link": "https://www.basketball-reference.com/players/t/tuckepj01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Moussa Diabat\u00e9",
+            "Link": "https://www.basketball-reference.com/players/d/diabamo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Xavier Moon",
+            "Link": "https://www.basketball-reference.com/players/m/moonxa01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jordan Miller",
+            "Link": "https://www.basketball-reference.com/players/m/millejo02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Joshua Primo",
+            "Link": "https://www.basketball-reference.com/players/p/primojo01.html",
+            "Pos": "SG"
+        }
+    ]
+}

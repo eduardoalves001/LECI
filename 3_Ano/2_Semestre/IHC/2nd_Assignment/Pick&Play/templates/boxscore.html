@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick&Play</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+       
+        <!-- Links e scripts para tabelas e ordenar--> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.bootstrap5.css">
+
+
+        <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.js"></script>
+        <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.bootstrap5.js"></script>
+
+        <script defer src="{{ url_for('static', filename='js/scriptTable.js') }}"></script>
+        <!-- Fim dos Links e scripts para tabelas e ordenar-->
+    </head> 
+    
+    <body class="body">
+        {% block content %}
+        <div class="main" script="width=100%">
+            <!-- !PAGE CONTENT! -->
+            <!-- Cabeçalho--> 
+            
+            <header id="inicio" style="border: 20px solid #ccc; background-color: #ccc;">
+                <div class="row top-nav d-flex justify-content-center">
+                    <div class="col d-flex justify-content-around">
+                        <button onclick="location.href='/';" class="button"><i class="fa fa-house"></i>Home</button>
+                        <div class="form-check form-switch">
+                            <input type="checkbox" class="form-check-input" id="checkbox" onclick="toggleDarkMode()">
+                            <label class="form-check-label" for="checkbox"><p class="theme" style="padding-left: 5px;"><i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i></p></label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            
+                            <button onclick="location.href='/1v1mode';" class="button"><i class="fa fa-handshake"></i>Singleplayer</button>
+                            <button onclick="location.href='/multiplayer';"class="button"><i class="fa fa-users"></i>Multiplayer</button>
+                            <button onclick="location.href='/standings';"class="button"><i class="fa fa-list-ol"></i>Standings</button>
+                            <button onclick="location.href='/results';" class="button"><i class="fa fa-bars"></i>Results</button>
+                            <button onclick="location.href='/stats';" class="button"><i class="fa fa-address-book"></i>Player Stats</button>
+                        </div>
+                        {% if userLogged %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/profile'" class="wallet" disabled><i class="fa fa-wallet"></i>{{ wallet }}€</button>
+                            <button onclick="location.href='/logout'" class="button logged" id="logout"><i class="fa fa-sign-in"></i>Logout</a>
+                            <button onclick="location.href='/profile'" class="button logged"><i class="fa fa-user"></i>Profile</a>
+                        </div>
+                        {% else %}
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='/login'" class="button unlogged"><i class="fa fa-sign-out"></i>Login</a>
+                            <button onclick="location.href='/register'" class="button unlogged"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </header>
+            
+
+            {% for message in get_flashed_messages() %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}  
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>  
+            {% endfor %}
+            <!--Conteúdo-->
+
+            <div class="d-flex justify-content-center">
+                <div class="col">
+                    <figure class="justify-content-center row">
+                        <img style="max-height: 200px;max-width: 200px;" src="{{ url_for('static', filename='images/teamLogos/{}.png'.format(team1))}}" class="img">
+                        <figcaption><h3 class="d-flex justify-content-center">{{ team1 }}</h3></figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <h1 style="text-align: center;">VS</h1>
+                </div>
+                <div class="col">
+                    <figure class="justify-content-center row">
+                        <img style="max-height: 200px;max-width: 200px;" src="{{ url_for('static', filename='images/teamLogos/{}.png'.format(team2))}}" class="img">
+                        <figcaption><h3 class="d-flex justify-content-center">{{ team1 }}</h3></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <h2 style="text-align: center;">
+                    {{score[0]}} - {{ score[1] }}
+                </h2>
+                
+            </div>
+            <div class="row" style="margin-bottom: 3%;">
+                <h2 style="text-align: center;">{{team1Full}}</h2>
+                <table id= "example1" class="table table-striped mx-auto justify-content-center" style="width: 90%;border: 10px solid #3f51b5;border-radius: 5px;">
+                    <thead>
+                        <tr><th style="background-color: #3f51b5;color:white;">Player</th><th style="background-color: #3f51b5;color:white;">PTS</th><th style="background-color: #3f51b5;color:white;">AST</th><th style="background-color: #3f51b5;color:white;">REB</th><th style="background-color: #3f51b5;color:white;">STL</th><th style="background-color: #3f51b5;color:white;">BLK</th><th style="background-color: #3f51b5;color:white;">FGM</th><th style="background-color: #3f51b5;color:white;">FGA</th><th style="background-color: #3f51b5;color:white;">FG%</th><th style="background-color: #3f51b5;color:white;">3PM</th><th style="background-color: #3f51b5;color:white;">3PA</th><th style="background-color: #3f51b5;color:white;">3P%</th><th style="background-color: #3f51b5;color:white;">FTM</th><th style="background-color: #3f51b5;color:white;">FTA</th><th style="background-color: #3f51b5;color:white;">FT%</th><th style="background-color: #3f51b5;color:white;">FLS</th><th style="background-color: #3f51b5;color:white;">TOV</th></tr>                        
+                    </thead>
+                    <tbody>
+                        {% for player in game[team1].keys() %}
+                        <tr><td style='text-align: center;'>{{player}}</td><td style='text-align: center;'>{{game[team1][player]['PTS']}}</td><td style='text-align: center;'>{{game[team1][player]['AST']}}</td><td style='text-align: center;'>{{game[team1][player]['REB']}}</td><td style='text-align: center;'>{{game[team1][player]['STL']}}</td><td style='text-align: center;'>{{game[team1][player]['BLK']}}</td><td style='text-align: center;'>{{game[team1][player]['FGM']}}</td><td style='text-align: center;'>{{game[team1][player]['FGA']}}</td><td style='text-align: center;'>{{game[team1][player]['FG%']}}</td><td style='text-align: center;'>{{game[team1][player]['3PM']}}</td><td style='text-align: center;'>{{game[team1][player]['3PA']}}</td><td style='text-align: center;'>{{game[team1][player]['3P%']}}</td><td style='text-align: center;'>{{game[team1][player]['FTM']}}</td><td style='text-align: center;'>{{game[team1][player]['FTA']}}</td><td style='text-align: center;'>{{game[team1][player]['FT%']}}</td><td style='text-align: center;'>{{game[team1][player]['FLS']}}</td><td style='text-align: center;'>{{game[team1][player]['Tov']}}</td></tr>    
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <h2 style="text-align: center;">{{team2Full}}</h2>
+                <table id= "example2" class="table table-striped mx-auto justify-content-center" style="width: 90%;border: 10px solid #3f51b5;border-radius: 5px;">
+                    <thead>
+                        <tr><th style="background-color: #3f51b5;color:white;">Player</th><th style="background-color: #3f51b5;color:white;">PTS</th><th style="background-color: #3f51b5;color:white;">AST</th><th style="background-color: #3f51b5;color:white;">REB</th><th style="background-color: #3f51b5;color:white;">STL</th><th style="background-color: #3f51b5;color:white;">BLK</th><th style="background-color: #3f51b5;color:white;">FGM</th><th style="background-color: #3f51b5;color:white;">FGA</th><th style="background-color: #3f51b5;color:white;">FG%</th><th style="background-color: #3f51b5;color:white;">3PM</th><th style="background-color: #3f51b5;color:white;">3PA</th><th style="background-color: #3f51b5;color:white;">3P%</th><th style="background-color: #3f51b5;color:white;">FTM</th><th style="background-color: #3f51b5;color:white;">FTA</th><th style="background-color: #3f51b5;color:white;">FT%</th><th style="background-color: #3f51b5;color:white;">FLS</th><th style="background-color: #3f51b5;color:white;">TOV</th></tr>                        
+                    </thead>
+                    <tbody>
+                        {% for player in game[team2].keys() %}
+                        <tr>
+                            <td style='text-align: center;'>{{player}}</td><td style='text-align: center;'>{{game[team2][player]['PTS']}}</td><td style='text-align: center;'>{{game[team2][player]['AST']}}</td><td style='text-align: center;'>{{game[team2][player]['REB']}}</td><td style='text-align: center;'>{{game[team2][player]['STL']}}</td><td style='text-align: center;'>{{game[team2][player]['BLK']}}</td><td style='text-align: center;'>{{game[team2][player]['FGM']}}</td><td style='text-align: center;'>{{game[team2][player]['FGA']}}</td><td style='text-align: center;'>{{game[team2][player]['FG%']}}</td><td style='text-align: center;'>{{game[team2][player]['3PM']}}</td><td style='text-align: center;'>{{game[team2][player]['3PA']}}</td><td style='text-align: center;'>{{game[team2][player]['3P%']}}</td><td style='text-align: center;'>{{game[team2][player]['FTM']}}</td><td style='text-align: center;'>{{game[team2][player]['FTA']}}</td><td style='text-align: center;'>{{game[team2][player]['FT%']}}</td><td style='text-align: center;'>{{game[team2][player]['FLS']}}</td><td style='text-align: center;'>{{game[team2][player]['Tov']}}</td>
+                        </tr>    
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            
+        {% endblock %}
+    </body>        
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        if (localStorage.getItem('theme') == 'dark') {
+            toggleDarkMode();
+            if(document.getElementById('checkbox').checked) {
+                localStorage.setItem('checkbox', true);
+            }
+        }
+        function toggleDarkMode() {
+            let isDark = document.body.classList.toggle('darkmode');
+            if (isDark) {
+                toggleDarkMode.checked = true;
+                localStorage.setItem('theme','dark');
+                document.getElementById('checkbox').setAttribute('checked', 'checked');
+                document.getElementById('inicio').style.background = "#222";
+                document.getElementById('inicio').style.border = "20px solid #222";
+                
+            } else {
+                toggleDarkMode.checked = false;
+                localStorage.removeItem('theme', 'dark');
+                document.getElementById('inicio').style.backgroundColor = "#ccc";
+                document.getElementById('inicio').style.border = "20px solid #ccc";
+            }
+        }
+    </script>
+</html>

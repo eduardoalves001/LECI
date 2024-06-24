@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Brandon Miller",
+            "Link": "https://www.basketball-reference.com/players/m/millebr02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Miles Bridges",
+            "Link": "https://www.basketball-reference.com/players/b/bridgmi02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Nick Richards",
+            "Link": "https://www.basketball-reference.com/players/r/richani01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "JT Thor",
+            "Link": "https://www.basketball-reference.com/players/t/thorjt01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Bryce McGowens",
+            "Link": "https://www.basketball-reference.com/players/m/mcgowbr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Nick Smith Jr.",
+            "Link": "https://www.basketball-reference.com/players/s/smithni01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Cody Martin",
+            "Link": "https://www.basketball-reference.com/players/m/martico01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Grant Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willigr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Vasilije Mici\u0107",
+            "Link": "https://www.basketball-reference.com/players/m/micicva01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "D\u0101vis Bert\u0101ns",
+            "Link": "https://www.basketball-reference.com/players/b/bertada01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Tre Mann",
+            "Link": "https://www.basketball-reference.com/players/m/manntr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Leaky Black",
+            "Link": "https://www.basketball-reference.com/players/b/blackle01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "LaMelo Ball",
+            "Link": "https://www.basketball-reference.com/players/b/ballla01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Mark Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willima07.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Aleksej Pokusevski",
+            "Link": "https://www.basketball-reference.com/players/p/pokusal01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Seth Curry",
+            "Link": "https://www.basketball-reference.com/players/c/curryse01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Amari Bailey",
+            "Link": "https://www.basketball-reference.com/players/b/baileam01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Marques Bolden",
+            "Link": "https://www.basketball-reference.com/players/b/boldema01.html",
+            "Pos": "C"
+        }
+    ]
+}

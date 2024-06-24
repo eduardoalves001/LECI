@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Jaime Jaquez Jr.",
+            "Link": "https://www.basketball-reference.com/players/j/jaqueja01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Duncan Robinson",
+            "Link": "https://www.basketball-reference.com/players/r/robindu01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Bam Adebayo",
+            "Link": "https://www.basketball-reference.com/players/a/adebaba01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Haywood Highsmith",
+            "Link": "https://www.basketball-reference.com/players/h/highsha01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Caleb Martin",
+            "Link": "https://www.basketball-reference.com/players/m/martica02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jimmy Butler",
+            "Link": "https://www.basketball-reference.com/players/b/butleji01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kevin Love",
+            "Link": "https://www.basketball-reference.com/players/l/loveke01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Josh Richardson",
+            "Link": "https://www.basketball-reference.com/players/r/richajo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Nikola Jovi\u0107",
+            "Link": "https://www.basketball-reference.com/players/j/jovicni01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Tyler Herro",
+            "Link": "https://www.basketball-reference.com/players/h/herroty01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Thomas Bryant",
+            "Link": "https://www.basketball-reference.com/players/b/bryanth01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Orlando Robinson",
+            "Link": "https://www.basketball-reference.com/players/r/robinor01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Terry Rozier",
+            "Link": "https://www.basketball-reference.com/players/r/roziete01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jamal Cain",
+            "Link": "https://www.basketball-reference.com/players/c/cainja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Cole Swider",
+            "Link": "https://www.basketball-reference.com/players/s/swideco01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Patty Mills",
+            "Link": "https://www.basketball-reference.com/players/m/millspa02.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Delon Wright",
+            "Link": "https://www.basketball-reference.com/players/w/wrighde01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Alondes Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willial06.html",
+            "Pos": "SG"
+        }
+    ]
+}

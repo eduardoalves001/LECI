@@ -1,0 +1,168 @@
+.body {
+    background-color: #f5f5f5;
+    color:#333333;
+}
+.main {
+    margin-left: auto; /* Set left margin to auto for horizontal centering */
+    margin-right: auto; /* Set right margin to auto for horizontal centering */
+    /* padding: 20px;  */
+    /* Add some padding for spacing within the main content area */
+}
+.darkmode {
+    background:#2f3033;
+    color: white;
+}
+#checkbox {
+    cursor: pointer;
+}
+/* Style for the buttons */
+.wallet {
+    background-color:#001648;
+    border: 5px;
+    color: white;
+    padding: 12px;
+    border-radius : 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button {
+    background-color:#3f51b5;
+    border: 5px;
+    color: white;
+    padding: 12px;
+    border-radius : 5px;
+    cursor: pointer;
+    /*margin: 5px;*/
+}
+.disabled {
+    background-color: #132033;
+    color: white;
+}
+.button:hover {
+    background-color: #132033;
+    color: white;
+}
+
+.selected {
+    background-color: rgb(0, 186, 0);
+    margin: 0px;
+}
+
+.top-nav{
+    margin: 16px;
+}
+.nav{
+    padding : 16px; 
+    border-radius: 10px; 
+    border: 20px solid #3f51b5;
+}
+#borderless{
+    padding : 16px; 
+    border-radius: 10px; 
+    border : 0px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 20px;
+    background-color: #3f51b5;
+    color:white;
+    font-size: large;
+}
+
+#selectedbtn {
+    background-color: #b1101d;
+}
+
+#monthSelected {
+    background-color: #b1101d;
+}
+.btn:hover{
+    background-color: #132033;
+    color:white;
+}
+.fa {
+    margin-right: 16px;
+}
+.titulo{
+    font-size: 36px;
+}
+.texto {
+    font-size: 16px
+}
+.center {
+    display: block; /* Set the element to block-level, so it takes up the full width of the parent container */   
+    margin: auto; /* Set the margin to auto */
+    text-align: center; /* Center-align the text content (if applicable) */
+    align-items: center;
+    border-radius: 5px;
+}
+.central {
+    display: block; /* Set the element to block-level, so it takes up the full width of the parent container */
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;    
+    margin: auto; /* Set the margin to auto */
+    text-align: center; /* Center-align the text content (if applicable) */
+    align-items: center;
+    border-radius: 5px;
+}
+.game {
+    display: block; 
+    text-align: center;
+    align-items: center; 
+    padding: 32px;
+    text-decoration:none; 
+    border-radius: 10px; 
+    border: 15px solid #3f51b5;
+    margin: 16px;
+}
+.toprow {
+    text-decoration:none; 
+    border-top-left-radius: 10px; 
+    border: 20px; 
+    border-top-right-radius: 10px;
+}
+.botrow{
+    text-decoration:none; 
+    border-bottom-left-radius: 10px; 
+    border: 20px; 
+    border-bottom-right-radius: 10px;
+    padding: 16px;
+}
+.dropoptions {
+    background-color:#3f51b5; 
+    color: white; 
+    border-radius : 10px; 
+    border: 5px;
+}
+.img {
+    border-radius: 15%; 
+    filter: invert(0);
+}
+#tableModal {
+    display: none;
+}
+.table-header {
+    background-color: #3f51b5;
+    color: white;
+}
+.tableBorder {
+    border: 10px solid #3f51b5;
+    border-radius: 5px; 
+}
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+.underline {
+    text-decoration: none;
+    color:#3f51b5;
+}
+.underline:hover {
+    color: #b1101d;
+}

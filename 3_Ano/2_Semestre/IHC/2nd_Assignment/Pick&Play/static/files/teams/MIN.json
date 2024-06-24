@@ -1,0 +1,89 @@
+{
+    "Players": [
+        {
+            "Player": "Nickeil Alexander-Walker",
+            "Link": "https://www.basketball-reference.com/players/a/alexani01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Naz Reid",
+            "Link": "https://www.basketball-reference.com/players/r/reidna01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Anthony Edwards",
+            "Link": "https://www.basketball-reference.com/players/e/edwaran01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Kyle Anderson",
+            "Link": "https://www.basketball-reference.com/players/a/anderky01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Rudy Gobert",
+            "Link": "https://www.basketball-reference.com/players/g/goberru01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Mike Conley",
+            "Link": "https://www.basketball-reference.com/players/c/conlemi01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jaden McDaniels",
+            "Link": "https://www.basketball-reference.com/players/m/mcdanja02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Karl-Anthony Towns",
+            "Link": "https://www.basketball-reference.com/players/t/townska01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jordan McLaughlin",
+            "Link": "https://www.basketball-reference.com/players/m/mclaujo01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Josh Minott",
+            "Link": "https://www.basketball-reference.com/players/m/minotjo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Monte Morris",
+            "Link": "https://www.basketball-reference.com/players/m/morrimo01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Luka Garza",
+            "Link": "https://www.basketball-reference.com/players/g/garzalu01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Wendell Moore Jr.",
+            "Link": "https://www.basketball-reference.com/players/m/moorewe01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Leonard Miller",
+            "Link": "https://www.basketball-reference.com/players/m/millele01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Daishen Nix",
+            "Link": "https://www.basketball-reference.com/players/n/nixda01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "T.J. Warren",
+            "Link": "https://www.basketball-reference.com/players/w/warretj01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jaylen Clark",
+            "Link": "https://www.basketball-reference.com/players/c/clarkja02.html",
+            "Pos": "SG"
+        }
+    ]
+}

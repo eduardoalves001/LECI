@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Chet Holmgren",
+            "Link": "https://www.basketball-reference.com/players/h/holmgch01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Cason Wallace",
+            "Link": "https://www.basketball-reference.com/players/w/wallaca01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Josh Giddey",
+            "Link": "https://www.basketball-reference.com/players/g/giddejo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Luguentz Dort",
+            "Link": "https://www.basketball-reference.com/players/d/dortlu01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Isaiah Joe",
+            "Link": "https://www.basketball-reference.com/players/j/joeis01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Aaron Wiggins",
+            "Link": "https://www.basketball-reference.com/players/w/wiggiaa01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Shai Gilgeous-Alexander",
+            "Link": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jalen Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willija06.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kenrich Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willike04.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jaylin Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willija07.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Lindy Waters III",
+            "Link": "https://www.basketball-reference.com/players/w/waterli01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Ousmane Dieng",
+            "Link": "https://www.basketball-reference.com/players/d/diengou01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Gordon Hayward",
+            "Link": "https://www.basketball-reference.com/players/h/haywago01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Olivier Sarr",
+            "Link": "https://www.basketball-reference.com/players/s/sarrol01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Mike Muscala",
+            "Link": "https://www.basketball-reference.com/players/m/muscami01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Keyontae Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnske08.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Bismack Biyombo",
+            "Link": "https://www.basketball-reference.com/players/b/biyombi01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Adam Flagler",
+            "Link": "https://www.basketball-reference.com/players/f/flaglad01.html",
+            "Pos": "SG"
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(14, 95, 194, 0.8),rgba(14, 95, 194,0.8)), url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    padding: 10px 60px 70px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.shortlogo{
+    position: relative;
+    top: 0;
+    left: 20%;
+    height: 100px;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+
+}
+.form-box h1{
+    color:  rgb(225, 108, 11);
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color:  rgb(225, 108, 11);
+}
+
+form p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form p a{
+    text-decoration: none;
+    color: rgb(225, 108, 11);
+}
+
+
+.button-field{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-field button{
+    flex-basis: 48%;
+    background: rgb(225, 108, 11) ;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+
+}
+
+.input{
+    height: 250px;
+}
+
+.button-field button.signUp{
+    background:  #eaeaea;
+    color: #555;
+}
+
+.button-field a.signIN{
+    font-size: 12px;
+    padding: 11px 20px;
+    color: #ffff;
+    text-decoration: none;
+
+
+    position: relative;
+    font-weight: 600;
+}
+
+.button-field a.signUP{
+    font-size: 12px;
+    padding: 11px 20px;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: #555;
+}

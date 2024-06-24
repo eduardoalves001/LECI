@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./observe.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@v0.153.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@v0.153.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script>
+    function slideToolbar(direction) {
+    var toolbar = document.getElementById('ui-toolbar');
+    var toolbarWidth = toolbar.offsetWidth;
+
+    if (direction === 'left') {
+        toolbar.style.transition = "left 0.5s ease";
+        toolbar.style.left = -toolbarWidth + 'px';
+        document.getElementById('slide-left-button').style.display = 'none';
+        document.getElementById('slide-right-button').style.display = 'block';
+    } else if (direction === 'right') {
+        toolbar.style.transition = "left 0.5s ease";
+        toolbar.style.left = 0;
+        document.getElementById('slide-left-button').style.display = 'block';
+        document.getElementById('slide-right-button').style.display = 'none';
+    }
+}
+  </script>
+
+</head>
+<body>
+  <div id="root-window">
+    <div id="render-target">
+  </div>
+
+  <div id="main-menu">
+    <button id="toggleButton">Hide Tutorial</button>
+    <button id="main-menu-button">Back to Main Menu</button>
+  </div>
+
+  <div class="tutorial-box">
+    <p class="tutorial"><b>Controlos:</b><br> <br> <b>A</b> -> Andar para a esquerda<br> <br> <b>W</b> -> Andar para cima <br><br> <b>D</b> -> Andar para a direita <br> <br> <b>S</b> -> Andar para baixo <br> <br>
+    <b>Premir botão direito do rato</b> -> Rodar camera<br> <br> <b>Premir roda do meio do rato</b> -> Arrastar camera<br> <br> <b>Rodar roda do meio do rato</b> -> Zoom <br> <br> <b>F</b> -> Ativar e desativar Camara em Primeira pessoa</p>
+  </div>
+
+  
+
+  <script>
+    document.getElementById("toggleButton").addEventListener("click", function() {
+    var tutorialBox = document.querySelector(".tutorial-box");
+    tutorialBox.classList.toggle("hidden");
+      
+    var toggleButton = document.getElementById("toggleButton");
+    if (tutorialBox.classList.contains("hidden")) {
+        toggleButton.textContent = "Show Tutorial";
+    } else {
+        toggleButton.textContent = "Hide Tutorial";
+    }
+});
+  </script>
+
+  <script>
+    var backButton = document.getElementById('main-menu-button');
+    backButton.addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+  </script>
+
+  <script type="module">
+    import { createGame } from './src/game2.js';
+  </script>
+</body>
+</html>

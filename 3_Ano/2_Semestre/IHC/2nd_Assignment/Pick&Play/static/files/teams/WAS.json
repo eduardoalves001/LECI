@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Jordan Poole",
+            "Link": "https://www.basketball-reference.com/players/p/poolejo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Corey Kispert",
+            "Link": "https://www.basketball-reference.com/players/k/kispeco01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Deni Avdija",
+            "Link": "https://www.basketball-reference.com/players/a/avdijde01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Kyle Kuzma",
+            "Link": "https://www.basketball-reference.com/players/k/kuzmaky01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Tyus Jones",
+            "Link": "https://www.basketball-reference.com/players/j/jonesty01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Bilal Coulibaly",
+            "Link": "https://www.basketball-reference.com/players/c/coulibi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Anthony Gill",
+            "Link": "https://www.basketball-reference.com/players/g/gillan01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Landry Shamet",
+            "Link": "https://www.basketball-reference.com/players/s/shamela01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Johnny Davis",
+            "Link": "https://www.basketball-reference.com/players/d/davisjo06.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Eugene Omoruyi",
+            "Link": "https://www.basketball-reference.com/players/o/omorueu01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jared Butler",
+            "Link": "https://www.basketball-reference.com/players/b/butleja02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Patrick Baldwin Jr.",
+            "Link": "https://www.basketball-reference.com/players/b/baldwpa01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Marvin Bagley III",
+            "Link": "https://www.basketball-reference.com/players/b/baglema01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Richaun Holmes",
+            "Link": "https://www.basketball-reference.com/players/h/holmeri01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jules Bernard",
+            "Link": "https://www.basketball-reference.com/players/b/bernaju01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Justin Champagnie",
+            "Link": "https://www.basketball-reference.com/players/c/champju01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Tristan Vukcevic",
+            "Link": "https://www.basketball-reference.com/players/v/vukcetr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Isaiah Livers",
+            "Link": "https://www.basketball-reference.com/players/l/liveris01.html",
+            "Pos": "PF"
+        }
+    ]
+}

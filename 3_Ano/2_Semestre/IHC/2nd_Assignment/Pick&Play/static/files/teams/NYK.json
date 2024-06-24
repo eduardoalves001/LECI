@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Donte DiVincenzo",
+            "Link": "https://www.basketball-reference.com/players/d/divindo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Josh Hart",
+            "Link": "https://www.basketball-reference.com/players/h/hartjo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jalen Brunson",
+            "Link": "https://www.basketball-reference.com/players/b/brunsja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Isaiah Hartenstein",
+            "Link": "https://www.basketball-reference.com/players/h/harteis01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Miles McBride",
+            "Link": "https://www.basketball-reference.com/players/m/mcbrimi01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Julius Randle",
+            "Link": "https://www.basketball-reference.com/players/r/randlju01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Precious Achiuwa",
+            "Link": "https://www.basketball-reference.com/players/a/achiupr01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jericho Sims",
+            "Link": "https://www.basketball-reference.com/players/s/simsje01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Mitchell Robinson",
+            "Link": "https://www.basketball-reference.com/players/r/robinmi01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Bojan Bogdanovi\u0107",
+            "Link": "https://www.basketball-reference.com/players/b/bogdabo02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Alec Burks",
+            "Link": "https://www.basketball-reference.com/players/b/burksal01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "OG Anunoby",
+            "Link": "https://www.basketball-reference.com/players/a/anunoog01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "DaQuan Jeffries",
+            "Link": "https://www.basketball-reference.com/players/j/jeffrda01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jacob Toppin",
+            "Link": "https://www.basketball-reference.com/players/t/toppija01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Charlie Brown Jr.",
+            "Link": "https://www.basketball-reference.com/players/b/brownch02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Shake Milton",
+            "Link": "https://www.basketball-reference.com/players/m/miltosh01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Mamadi Diakite",
+            "Link": "https://www.basketball-reference.com/players/d/diakima01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Duane Washington Jr.",
+            "Link": "https://www.basketball-reference.com/players/w/washidu02.html",
+            "Pos": "SG"
+        }
+    ]
+}

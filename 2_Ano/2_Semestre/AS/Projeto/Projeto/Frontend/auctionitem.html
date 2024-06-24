@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D WORLD</title>
+    <link rel="stylesheet" href="css/auctionitem.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <script src="./js/baseurl.js"></script>
+    <script src="./js/authRequired.js"></script>
+    <script src="./js/auctionItem.js"></script>
+
+</head>
+
+<body onload="checkAuth(); getAuctionInfo(); displayBalance()">
+    <img src="img/money.jpg" alt="Image" class="fundo">
+    <!-- NAVBAR-->
+    <header>
+        <a href="#" class="logo"><img src="img/3DWorldLogo.png" alt=""></a>
+        <div class="bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="auction.html">Auction</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </header>
+
+    <div class="h5">
+        <h5 id="auctionItem-name"></h5>
+    </div>
+
+    <div class="column2">
+        <figure>
+            <div class="card">
+                <img id="auctionItem-image">
+            </div>
+        </figure>
+    </div>
+
+    <button class="btn">
+        <svg class="icon" width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+    </button>
+    <div class="container">
+        <div class="bid">
+            <div id="auctionItem-history">
+                <ul>Bid History</ul>
+                <hr>
+            </div>
+            <form>
+                <label id="label_bid">Bid Here --></label>
+                <input type="text" id="bid">
+                <button type="button" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="balance_display">
+        <h1>Current balance:
+            <p><span id="balance"></span> <span id="€">€</span></p>
+        </h1>
+        <br>
+        <div class="balance"></div>
+        <button class="balance_button"><a href="payment.html"> Deposit <p></p><i class="fa-regular fa-credit-card"
+                    style="color: #ffffff;"></i></a></button>
+
+    </div>
+    <div class="balance2">
+        <form>
+            <label id="label_bid">Deposit Here --></label>
+            <input type="text" id="bid">
+            <button type="button" class="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="js/heart.js"></script>
+    <script src="js/balance.js"></script>
+    <script src="js/bid.js"></script>
+</body>
+
+</html>

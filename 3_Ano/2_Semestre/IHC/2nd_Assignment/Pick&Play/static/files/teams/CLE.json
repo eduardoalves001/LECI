@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Georges Niang",
+            "Link": "https://www.basketball-reference.com/players/n/niangge01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jarrett Allen",
+            "Link": "https://www.basketball-reference.com/players/a/allenja01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Max Strus",
+            "Link": "https://www.basketball-reference.com/players/s/strusma01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Isaac Okoro",
+            "Link": "https://www.basketball-reference.com/players/o/okorois01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Caris LeVert",
+            "Link": "https://www.basketball-reference.com/players/l/leverca01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Sam Merrill",
+            "Link": "https://www.basketball-reference.com/players/m/merrisa01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Dean Wade",
+            "Link": "https://www.basketball-reference.com/players/w/wadede01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Darius Garland",
+            "Link": "https://www.basketball-reference.com/players/g/garlada01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Donovan Mitchell",
+            "Link": "https://www.basketball-reference.com/players/m/mitchdo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Craig Porter Jr.",
+            "Link": "https://www.basketball-reference.com/players/p/portecr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Tristan Thompson",
+            "Link": "https://www.basketball-reference.com/players/t/thomptr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Evan Mobley",
+            "Link": "https://www.basketball-reference.com/players/m/mobleev01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Damian Jones",
+            "Link": "https://www.basketball-reference.com/players/j/jonesda03.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Emoni Bates",
+            "Link": "https://www.basketball-reference.com/players/b/batesem01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Marcus Morris",
+            "Link": "https://www.basketball-reference.com/players/m/morrima03.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Isaiah Mobley",
+            "Link": "https://www.basketball-reference.com/players/m/mobleis01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Pete Nance",
+            "Link": "https://www.basketball-reference.com/players/n/nancepe01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Ty Jerome",
+            "Link": "https://www.basketball-reference.com/players/j/jeromty01.html",
+            "Pos": "SG"
+        }
+    ]
+}

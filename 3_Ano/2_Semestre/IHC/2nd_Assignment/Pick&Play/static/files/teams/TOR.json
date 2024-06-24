@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Gary Trent Jr.",
+            "Link": "https://www.basketball-reference.com/players/t/trentga02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Scottie Barnes",
+            "Link": "https://www.basketball-reference.com/players/b/barnesc01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Gradey Dick",
+            "Link": "https://www.basketball-reference.com/players/d/dickgr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jakob Poeltl",
+            "Link": "https://www.basketball-reference.com/players/p/poeltja01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Chris Boucher",
+            "Link": "https://www.basketball-reference.com/players/b/bouchch01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jalen McDaniels",
+            "Link": "https://www.basketball-reference.com/players/m/mcdanja01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Immanuel Quickley",
+            "Link": "https://www.basketball-reference.com/players/q/quickim01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Bruce Brown",
+            "Link": "https://www.basketball-reference.com/players/b/brownbr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jordan Nwora",
+            "Link": "https://www.basketball-reference.com/players/n/nworajo01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "RJ Barrett",
+            "Link": "https://www.basketball-reference.com/players/b/barrerj01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jontay Porter",
+            "Link": "https://www.basketball-reference.com/players/p/portejo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Kelly Olynyk",
+            "Link": "https://www.basketball-reference.com/players/o/olynyke01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Garrett Temple",
+            "Link": "https://www.basketball-reference.com/players/t/templga01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Ochai Agbaji",
+            "Link": "https://www.basketball-reference.com/players/a/agbajoc01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Javon Freeman-Liberty",
+            "Link": "https://www.basketball-reference.com/players/f/freemja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Mouhamadou Gueye",
+            "Link": "https://www.basketball-reference.com/players/g/gueyemo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "D.J. Carton",
+            "Link": "https://www.basketball-reference.com/players/c/cartodj01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Malik Williams",
+            "Link": "https://www.basketball-reference.com/players/w/willima11.html",
+            "Pos": "C"
+        }
+    ]
+}

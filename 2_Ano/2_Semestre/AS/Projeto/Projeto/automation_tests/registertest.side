@@ -1,0 +1,182 @@
+{
+  "id": "d57ca503-1ac5-47f2-8427-1e1b3e08bf1b",
+  "version": "2.0",
+  "name": "3D World",
+  "url": "https://3dworld.rui2015.me",
+  "tests": [{
+    "id": "93ee4067-46a5-4958-a337-95b03d568f64",
+    "name": "register",
+    "commands": [{
+      "id": "e6225825-73ae-4103-897b-a08d53ecdd4f",
+      "comment": "",
+      "command": "open",
+      "target": "/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7be8cf11-67e8-4050-95df-91f1a2a8ea2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4254bf3d-e453-415f-8efd-62a396a09790",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=.signUP", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register.html')]", "xpath:href"],
+        ["xpath=//button[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21d24e4a-31bd-4040-a7fc-a7f528cdb527",
+      "comment": "",
+      "command": "click",
+      "target": "id=nameInput",
+      "targets": [
+        ["id=nameInput", "id"],
+        ["css=#nameInput", "css:finder"],
+        ["xpath=//input[@id='nameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4316f03-35cd-42b8-ae63-dd31e97b8820",
+      "comment": "",
+      "command": "type",
+      "target": "id=nameInput",
+      "targets": [
+        ["id=nameInput", "id"],
+        ["css=#nameInput", "css:finder"],
+        ["xpath=//input[@id='nameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "eduardo alves"
+    }, {
+      "id": "208b119d-536c-4ec1-b8bc-51f95a680e12",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailInput",
+      "targets": [
+        ["id=emailInput", "id"],
+        ["css=#emailInput", "css:finder"],
+        ["xpath=//input[@id='emailInput']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "152a4479-fae6-4d87-9336-d04f8e5d4cee",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailInput",
+      "targets": [
+        ["id=emailInput", "id"],
+        ["css=#emailInput", "css:finder"],
+        ["xpath=//input[@id='emailInput']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "eduardoalves8@ua.pt"
+    }, {
+      "id": "754ebbf5-d305-4be1-8265-c38ffd53de98",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd051c7a-b35e-48b1-a5be-c6231d72bf91",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "f46db8b7-99fa-4d3e-91f5-2245906b1bb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=contactInput",
+      "targets": [
+        ["id=contactInput", "id"],
+        ["css=#contactInput", "css:finder"],
+        ["xpath=//input[@id='contactInput']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab65da58-9b0a-43c4-b82b-fcaafef677a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=contactInput",
+      "targets": [
+        ["id=contactInput", "id"],
+        ["css=#contactInput", "css:finder"],
+        ["xpath=//input[@id='contactInput']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "777777777"
+    }, {
+      "id": "062f6362-88f2-4c6b-9273-7695fae35ca8",
+      "comment": "",
+      "command": "click",
+      "target": "id=addressInput",
+      "targets": [
+        ["id=addressInput", "id"],
+        ["css=#addressInput", "css:finder"],
+        ["xpath=//input[@id='addressInput']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d16b0f-88e1-43fd-8d5c-d3d79f9c0758",
+      "comment": "",
+      "command": "type",
+      "target": "id=addressInput",
+      "targets": [
+        ["id=addressInput", "id"],
+        ["css=#addressInput", "css:finder"],
+        ["xpath=//input[@id='addressInput']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Rua da Universidade, nº 8"
+    }, {
+      "id": "5fe6c1dd-067e-4a11-825c-3e11976ba081",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=.signUp > .signUP", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up')]", "xpath:link"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "497d4dc1-e765-46c8-a543-bf67b5223f24",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["93ee4067-46a5-4958-a337-95b03d568f64"]
+  }],
+  "urls": ["https://3dworld.rui2015.me/"],
+  "plugins": []
+}

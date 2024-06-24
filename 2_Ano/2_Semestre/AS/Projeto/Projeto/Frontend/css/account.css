@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Konkhmer+Sleokchher&family=Oswald:wght@600;700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #e16c0b;
+    --second-color: #0e5fc2;
+}
+
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+section {
+    padding: 50px 10%;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: var(--second-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    border-radius: 10%;
+    padding: 15px 10%;
+    transition: 0.2s;
+    margin-bottom: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 11px 20px;
+    color: var(--second-color);
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.account {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px; /* Adjust the top value to position the account div below the navbar */
+    z-index: 1;
+  }
+  
+  .account h1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  
+
+
+.john {
+    margin-top: 40%;
+    margin-left: 100%;
+    z-index: -1;
+}
+
+.johnimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: solid var(--main-color);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-container {
+    line-height: 1.5;
+    background-color: var(--second-color);
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.text-container h3 {
+    color: #ffffff;
+    margin: 7px 0;
+}
+
+.text-container .edit {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.text-container .edit:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+.signout {
+    position: fixed;
+    bottom: 20px;
+    /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 120px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.signout a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.signout:hover{
+  background-color: #e16c0b;
+}
+
+
+.signout a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+

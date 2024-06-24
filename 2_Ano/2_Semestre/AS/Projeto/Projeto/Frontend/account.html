@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D WORLD</title>
+    <link rel="stylesheet" href="css/account.css">
+    
+    <script src="./js/baseurl.js"></script>
+    <script src="./js/authRequired.js"></script>
+    <script src="./js/profile.js"></script>
+    <script src="./js/logout.js"></script>
+    
+</head>
+<img src="img/fundo2.png" alt="Image" class="fundo">
+<body onload="checkAuth(); getProfileInfo()">
+    <!-- NAVBAR-->
+    <header>
+        <a href="#" class="logo"><img src="img/3DWorldLogo.png" alt=""></a>
+        <div class="bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="order.html">Auction</a></li>
+            <li><a href="auction.html">Order</a></li>
+        </ul>
+    </header>
+
+
+    <div class="account">
+        <h1 class="centered">Your Profile</h1>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="text-container">
+            <h3>Name: <span id="profile-name"></span></h3>
+            <h3>Contact: <span id="profile-contact"></span></h3>
+            <h3>Address: <span id="profile-address"></span></h3>
+            <h3>Email: <span id="profile-email"></span></h3>
+            <button class="edit">Edit Profile</button>
+        </div>
+    <!-- <div class="john-container">
+        <img src="img/JoãoSilva.jpg" alt="Anel" class="johnimg">
+    </div> -->
+
+</div>
+
+    <button class="signout" type="button" onclick="logout()">Sign Out</button>
+</body>
+
+</html>

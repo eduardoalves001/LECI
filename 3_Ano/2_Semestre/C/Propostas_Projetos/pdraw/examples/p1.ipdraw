@@ -1,0 +1,6 @@
+position (10,10); % set pen position
+down;
+forward 10;
+left 45º;
+backward 5;
+

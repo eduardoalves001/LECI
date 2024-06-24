@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D WORLD</title>
+    <link rel="stylesheet" href="css/auction.css">
+    
+    <script src="./js/baseurl.js"></script>
+    <script src="./js/authRequired.js"></script>
+    <script src="./js/auction.js"></script>
+</head>
+
+<body onload="checkAuth(); loadAuctions()">
+    <img src="img/fundo22.png" alt="Image" class="fundo">
+    <!-- NAVBAR-->
+    <header>
+        <a href="#" class="logo"><img src="img/3DWorldLogo.png" alt=""></a>
+        <div class="bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome to</span>
+            <h1>3D WORLD</h1>
+            <h2>Make your <br>Dreams Real🔥</h2>
+        </div>
+    </section>
+
+
+    <div id="auctions">
+    </div>
+</body>
+</html>

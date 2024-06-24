@@ -1,0 +1,35 @@
+
+real width = real(stdin "width: ");
+real height = real(stdin "height: ");
+
+define canvas Canvas1 "Example p2" (width,height); % default has no name and size (500,500)
+
+define pen PenType2 {
+   color = blue;
+   position = (int(width)//2,int(height)//2);
+};
+
+pen p2 = new PenType2;
+
+% pen movement operators (relative to its current position and orientation): forward, backward
+% pen (relative) orientation operators: clockwise: right  ;  counterclockwise: left
+% define (absolute) pen attribute operator: <- <attribute> <val> (<- color <val>; <- position <val>; <- orientation <val>; ...)
+
+p2 -> stdout; % write pen information (color, position, orientation, ...) to standard output
+"\n" -> stdout; % write text "\n"
+
+pause 10000; % sleeps 10000 microseconds
+
+% draw pentagram:
+
+p2 down;
+p2 forward 10;
+p2 right 144º;
+p2 forward 10;
+p2 right 144º;
+p2 forward 10;
+p2 right 144º;
+p2 forward 10;
+p2 right 144º;
+p2 forward 10;
+

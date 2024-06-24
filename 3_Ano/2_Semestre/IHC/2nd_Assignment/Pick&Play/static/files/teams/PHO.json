@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Jusuf Nurki\u0107",
+            "Link": "https://www.basketball-reference.com/players/n/nurkiju01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Drew Eubanks",
+            "Link": "https://www.basketball-reference.com/players/e/eubandr01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Kevin Durant",
+            "Link": "https://www.basketball-reference.com/players/d/duranke01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Grayson Allen",
+            "Link": "https://www.basketball-reference.com/players/a/allengr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Eric Gordon",
+            "Link": "https://www.basketball-reference.com/players/g/gordoer01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Devin Booker",
+            "Link": "https://www.basketball-reference.com/players/b/bookede01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Josh Okogie",
+            "Link": "https://www.basketball-reference.com/players/o/okogijo01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Bradley Beal",
+            "Link": "https://www.basketball-reference.com/players/b/bealbr01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Nassir Little",
+            "Link": "https://www.basketball-reference.com/players/l/littlna01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Bol Bol",
+            "Link": "https://www.basketball-reference.com/players/b/bolbo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Royce O'Neale",
+            "Link": "https://www.basketball-reference.com/players/o/onealro01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Saben Lee",
+            "Link": "https://www.basketball-reference.com/players/l/leesa01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Udoka Azubuike",
+            "Link": "https://www.basketball-reference.com/players/a/azubuud01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "David Roddy",
+            "Link": "https://www.basketball-reference.com/players/r/roddyda01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Thaddeus Young",
+            "Link": "https://www.basketball-reference.com/players/y/youngth01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Isaiah Thomas",
+            "Link": "https://www.basketball-reference.com/players/t/thomais02.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Ish Wainright",
+            "Link": "https://www.basketball-reference.com/players/w/wainris01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Damion Lee",
+            "Link": "https://www.basketball-reference.com/players/l/leeda03.html",
+            "Pos": "SG"
+        }
+    ]
+}

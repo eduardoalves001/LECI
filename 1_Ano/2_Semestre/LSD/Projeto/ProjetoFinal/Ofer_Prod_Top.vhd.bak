@@ -1,0 +1,47 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity Ofer_Prod_Top is
+	port(CLOCK_50	: in  std_logic;
+		  KEY			: in  std_logic_vector(0 downto 0);
+		  SW			: in  std_logic_vector(3 downto 0);
+		  LEDR		: out std_logic_vector(17 downto 0));
+end Ofer_Prod_Top;
+
+architecture Shell of Ofer_Prod_Top is
+
+	signal s_newTime, s_timeExp	: std_logic;
+	signal s_timeVal					: std_logic_vector(7 downto 0);
+	signal s_selWord					: std_logic;
+	signal s_yellow1, s_yellow2	: std_logic;
+
+begin
+	clk_div_1hz : entity work.ClkDividerN(RTL)
+			generic map(divFactor => 50000000)
+			port map(clkIn			 => CLOCK_50,
+						clkOut		 => s_clk1Hz);
+	
+	main_fsm : entity work.Ofer_Prod(Behavioral)
+		port map(reset		=> SW(0),
+					clk		=> s_clk1Hz,
+					newTime	=> s_newTime,
+					timeVal	=> s_timeVal,
+					timeExp	=> s_timeExp,
+					fanta		=> SW(1),
+					somu_lim	=> SW(2),
+					somu_pes	=> SW(3),
+					LEDR		=> LEDR(0),
+					LEDG 		=> LEDG(0));
+
+	timer_fsm : entity work.TimerAuxFSM(Behavioral)
+		port map(reset		=> SW(0),
+					clk		=> not s_clk1Hz,
+					newTime	=> s_newTime,
+					timeVal	=> s_timeVal,
+					timeExp	=> s_timeExp);
+					
+	decoder_fsm : entity work.Bin7SegDecoder(Behavioral)
+		port map(
+
+end Shell;

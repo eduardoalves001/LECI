@@ -1,0 +1,84 @@
+{
+    "Players": [
+        {
+            "Player": "Paul Reed",
+            "Link": "https://www.basketball-reference.com/players/r/reedpa01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Tobias Harris",
+            "Link": "https://www.basketball-reference.com/players/h/harrito02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Tyrese Maxey",
+            "Link": "https://www.basketball-reference.com/players/m/maxeyty01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Kelly Oubre Jr.",
+            "Link": "https://www.basketball-reference.com/players/o/oubreke01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "KJ Martin",
+            "Link": "https://www.basketball-reference.com/players/m/martike04.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Mo Bamba",
+            "Link": "https://www.basketball-reference.com/players/b/bambamo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Nicolas Batum",
+            "Link": "https://www.basketball-reference.com/players/b/batumni01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Joel Embiid",
+            "Link": "https://www.basketball-reference.com/players/e/embiijo01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "De'Anthony Melton",
+            "Link": "https://www.basketball-reference.com/players/m/meltode01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Buddy Hield",
+            "Link": "https://www.basketball-reference.com/players/h/hieldbu01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Ricky Council IV",
+            "Link": "https://www.basketball-reference.com/players/c/councri01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Cameron Payne",
+            "Link": "https://www.basketball-reference.com/players/p/payneca01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Robert Covington",
+            "Link": "https://www.basketball-reference.com/players/c/covinro01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Kyle Lowry",
+            "Link": "https://www.basketball-reference.com/players/l/lowryky01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Terquavion Smith",
+            "Link": "https://www.basketball-reference.com/players/s/smithte01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jeff Dowtin",
+            "Link": "https://www.basketball-reference.com/players/d/dowtije01.html",
+            "Pos": "PG"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "Players": [
+        {
+            "Player": "Jaden Ivey",
+            "Link": "https://www.basketball-reference.com/players/i/iveyja01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Marcus Sasser",
+            "Link": "https://www.basketball-reference.com/players/s/sassema01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Ausar Thompson",
+            "Link": "https://www.basketball-reference.com/players/t/thompau01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Cade Cunningham",
+            "Link": "https://www.basketball-reference.com/players/c/cunnica01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jalen Duren",
+            "Link": "https://www.basketball-reference.com/players/d/durenja01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "James Wiseman",
+            "Link": "https://www.basketball-reference.com/players/w/wisemja01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Isaiah Stewart",
+            "Link": "https://www.basketball-reference.com/players/s/stewais01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Evan Fournier",
+            "Link": "https://www.basketball-reference.com/players/f/fournev01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Stanley Umude",
+            "Link": "https://www.basketball-reference.com/players/u/umudest01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Malachi Flynn",
+            "Link": "https://www.basketball-reference.com/players/f/flynnma01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Troy Brown Jr.",
+            "Link": "https://www.basketball-reference.com/players/b/browntr01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Simone Fontecchio",
+            "Link": "https://www.basketball-reference.com/players/f/fontesi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Tosan Evbuomwan",
+            "Link": "https://www.basketball-reference.com/players/e/evbuoto01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jared Rhoden",
+            "Link": "https://www.basketball-reference.com/players/r/rhodeja01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Chimezie Metu",
+            "Link": "https://www.basketball-reference.com/players/m/metuch01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Quentin Grimes",
+            "Link": "https://www.basketball-reference.com/players/g/grimequ01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Buddy Boeheim",
+            "Link": "https://www.basketball-reference.com/players/b/boehebu01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jaylen Nowell",
+            "Link": "https://www.basketball-reference.com/players/n/nowelja01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Taj Gibson",
+            "Link": "https://www.basketball-reference.com/players/g/gibsota01.html",
+            "Pos": "PF"
+        }
+    ]
+}

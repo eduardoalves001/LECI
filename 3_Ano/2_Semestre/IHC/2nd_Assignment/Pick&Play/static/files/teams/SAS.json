@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Jeremy Sochan",
+            "Link": "https://www.basketball-reference.com/players/s/sochaje01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Tre Jones",
+            "Link": "https://www.basketball-reference.com/players/j/jonestr01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Malaki Branham",
+            "Link": "https://www.basketball-reference.com/players/b/branhma01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Cedi Osman",
+            "Link": "https://www.basketball-reference.com/players/o/osmande01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Julian Champagnie",
+            "Link": "https://www.basketball-reference.com/players/c/champju02.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Victor Wembanyama",
+            "Link": "https://www.basketball-reference.com/players/w/wembavi01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Devin Vassell",
+            "Link": "https://www.basketball-reference.com/players/v/vassede01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Keldon Johnson",
+            "Link": "https://www.basketball-reference.com/players/j/johnske04.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Zach Collins",
+            "Link": "https://www.basketball-reference.com/players/c/colliza01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Blake Wesley",
+            "Link": "https://www.basketball-reference.com/players/w/weslebl01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Sandro Mamukelashvili",
+            "Link": "https://www.basketball-reference.com/players/m/mamuksa01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Dominick Barlow",
+            "Link": "https://www.basketball-reference.com/players/b/barlodo01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Charles Bassey",
+            "Link": "https://www.basketball-reference.com/players/b/bassech01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Devonte' Graham",
+            "Link": "https://www.basketball-reference.com/players/g/grahade01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Sidy Cissoko",
+            "Link": "https://www.basketball-reference.com/players/c/cissosi01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "David Duke Jr.",
+            "Link": "https://www.basketball-reference.com/players/d/dukeda01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Jamaree Bouyea",
+            "Link": "https://www.basketball-reference.com/players/b/bouyeja01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "RaiQuan Gray",
+            "Link": "https://www.basketball-reference.com/players/g/grayra01.html",
+            "Pos": "PF"
+        }
+    ]
+}

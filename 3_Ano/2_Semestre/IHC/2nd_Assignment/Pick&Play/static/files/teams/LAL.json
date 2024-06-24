@@ -1,0 +1,94 @@
+{
+    "Players": [
+        {
+            "Player": "Austin Reaves",
+            "Link": "https://www.basketball-reference.com/players/r/reaveau01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Taurean Prince",
+            "Link": "https://www.basketball-reference.com/players/p/princta02.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Anthony Davis",
+            "Link": "https://www.basketball-reference.com/players/d/davisan02.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "D'Angelo Russell",
+            "Link": "https://www.basketball-reference.com/players/r/russeda01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "LeBron James",
+            "Link": "https://www.basketball-reference.com/players/j/jamesle01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Jaxson Hayes",
+            "Link": "https://www.basketball-reference.com/players/h/hayesja02.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Rui Hachimura",
+            "Link": "https://www.basketball-reference.com/players/h/hachiru01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Max Christie",
+            "Link": "https://www.basketball-reference.com/players/c/chrisma02.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Christian Wood",
+            "Link": "https://www.basketball-reference.com/players/w/woodch01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Cam Reddish",
+            "Link": "https://www.basketball-reference.com/players/r/reddica01.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Maxwell Lewis",
+            "Link": "https://www.basketball-reference.com/players/l/lewisma05.html",
+            "Pos": "SF"
+        },
+        {
+            "Player": "Jarred Vanderbilt",
+            "Link": "https://www.basketball-reference.com/players/v/vandeja01.html",
+            "Pos": "PF"
+        },
+        {
+            "Player": "Spencer Dinwiddie",
+            "Link": "https://www.basketball-reference.com/players/d/dinwisp01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Jalen Hood-Schifino",
+            "Link": "https://www.basketball-reference.com/players/h/hoodsja01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Skylar Mays",
+            "Link": "https://www.basketball-reference.com/players/m/mayssk01.html",
+            "Pos": "SG"
+        },
+        {
+            "Player": "Colin Castleton",
+            "Link": "https://www.basketball-reference.com/players/c/castlco01.html",
+            "Pos": "C"
+        },
+        {
+            "Player": "Gabe Vincent",
+            "Link": "https://www.basketball-reference.com/players/v/vincega01.html",
+            "Pos": "PG"
+        },
+        {
+            "Player": "Harry Giles",
+            "Link": "https://www.basketball-reference.com/players/g/gilesha01.html",
+            "Pos": "C"
+        }
+    ]
+}

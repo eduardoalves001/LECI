@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 16 01:26:13 2021
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Ofer_Prod
+Top-level Entity Name : Ofer_Prod_Top
+Family : Cyclone IV E
+Total logic elements : 377
+    Total combinational functions : 368
+    Dedicated logic registers : 136
+Total registers : 136
+Total pins : 66
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,645 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0deg, slategray, lightgray);
+  }
+  h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+    margin: 0;
+    color: white;
+  }
+  #root-window {
+    height: 100%;
+  }
+  #render-target {
+    position: relative;
+    height: 100%;
+  }
+  
+  /* Estética da navbar */
+  
+  #ui-toolbar {
+    display: block;
+    position: absolute;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  
+    background-color: lightslategray;
+    padding: 8px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  /* Estética dos botões da navbar */
+  
+  /* Dedo */
+  .ui-button {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(122, 255, 246);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Lixo */
+  .ui-button1 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(220, 220, 220);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Casa */
+  
+  .ui-button2 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: #ffc58a;
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Árvore */
+  
+  .ui-button3 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(90, 255, 75);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Vending Machine */
+  
+  .ui-button4 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(255, 130, 130);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Moinho */
+  
+  .ui-button5 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(255, 255, 60);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Torii */
+  
+  .ui-button6 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: red;
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Banco */
+  
+  .ui-button7 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(231, 174, 18);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Muro */
+  
+  .ui-button8 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: #FFA500;
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Arcade */
+  
+  .ui-button9 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(255, 77, 255);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estrada */
+  
+  .ui-button10 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(255, 230, 88);;
+    color: darkgray;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Upgrade */
+  
+  .ui-button11 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 4px 0;
+  
+    background-color: rgb(0, 217, 255);
+    color: white;
+  
+    border: none;
+    border-radius: 3px;
+  
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 40%);
+  
+    transition: background-color 0.25s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  /* Estética dos botões da navbar quando selecionados*/
+  
+  .ui-button.selected {
+    background-color: white;
+  }
+  .ui-button1.selected {
+    background-color: white;
+  }
+  .ui-button2.selected {
+    background-color: white;
+  }
+  .ui-button3.selected {
+    background-color: white;
+  }
+  .ui-button4.selected {
+    background-color: white;
+  }
+  .ui-button5.selected {
+    background-color: white;
+  }
+  .ui-button6.selected {
+    background-color: white;
+  }
+  .ui-button7.selected {
+    background-color: white;
+  }
+  .ui-button8.selected {
+    background-color: white;
+  }
+  .ui-button9.selected {
+    background-color: white;
+  }
+  .ui-button10.selected {
+    background-color: white;
+  }
+  .ui-button11.selected {
+    background-color: white;
+  }
+  
+  
+  
+  
+  /* Estética dos botões da navbar quando se passa o rato por cima */
+  
+  .ui-button:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 0%)
+  }
+  .ui-button1:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button2:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button3:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button4:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button5:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button6:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button7:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button8:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button9:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button10:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  .ui-button11:not(.selected):hover {
+    background-color: rgba(0, 0, 0, 10%)
+  }
+  
+
+  .ui-container {
+    background-color: #33333355;
+    padding: 16px;
+  }
+  
+  .toolbar-icon {
+    width: 36px;
+    height: 36px;
+    pointer-events: none;
+  }
+  
+  
+  #title-bar {
+    position: fixed;
+  
+    top: 0;
+    left: 66px;
+    right: 0px;
+    height: 50px;
+  
+    background-color: rgba(0, 0, 0, 0.2);
+  
+    font-size: x-large;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-bar-items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #population-counter {
+    margin-left: 8px;
+  }
+  
+  #info-overlay {
+    position: fixed;
+    top: 0px;
+    right: 100%;
+    margin: 16px;
+    padding: 12px; 
+    width: 300px;
+  
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+  }
+  
+  #info-overlay-header {
+    font-weight: bold;
+  }
+  
+  #info-panel {
+    position: fixed;
+    color: black;
+    top: 8%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 16px;
+    padding: 12px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+  }
+  
+  #info-panel-text{
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+  }
+  
+  #rotateTexture{
+    top: 8%;
+    right: 8%;
+  }
+  
+  #weather-panel {
+    position: fixed;
+    color: black; 
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 16px;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+  }
+  
+  #weather-text {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  #season-buttons {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  #season-buttons button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #weather-panel {
+    position: absolute;
+    bottom: 105px; 
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 16px;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+  }
+  
+  .toolbar-icon {
+    width: 36px;
+    height: 36px;
+    pointer-events: none;
+  }
+  
+  
+  #sunny-button{
+    background-color: rgb(255, 255, 79);
+  }
+  #snowing-button{
+    background-color: white;
+  }
+  #sakura-button{
+    background-color: pink;
+  }
+  #rainy-button{
+    background-color: rgb(63, 156, 255);
+  }
+  
+  .city-name-box {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px; 
+    border-radius: 5px;
+    max-width: 200px; 
+    overflow-wrap: break-word;
+  }
+  
+  #city-name {
+    font-size: 14px; 
+    max-width: 180px; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+  
+  #expandRight{
+    position: fixed;
+    bottom: 120px;
+    right: 20px; 
+    z-index: 9999; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+  }
+  
+  #expandDown{
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    z-index: 9999; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px; 
+    border-radius: 5px; 
+    max-width: 200px; 
+    overflow-wrap: break-word; 
+  }
+  
+  #slide-right-button{
+    position: fixed;
+    bottom: 1%; 
+    left: 1%; 
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px; 
+    border-radius: 5px; 
+    max-width: 200px; 
+    overflow-wrap: break-word; 
+  }
+  
+  #slide-left-button{
+    position: fixed;
+    bottom: 1%; 
+    left: 5%; 
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px; 
+    border-radius: 5px;
+    max-width: 200px; 
+    overflow-wrap: break-word; 
+  }
+  
+  #main-menu {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+  }
+  
+  .tutorial-box {
+    display: block;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    background-color: lightcyan;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 375px;
+    margin: 5px auto 0;
+}
+
+
+.hidden {
+  display: none;
+}
+  
+  
+  

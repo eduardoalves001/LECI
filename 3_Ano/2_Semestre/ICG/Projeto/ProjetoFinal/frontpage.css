@@ -1,0 +1,143 @@
+body {
+    background-image: url('./textures/sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+}
+
+#game-button {
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    padding: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#observe-button {
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    padding: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 20%);
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#game-button:hover,
+#observe-button:hover {
+    background-color: purple;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+#gameName {
+    position: absolute;
+    color: purple;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#Title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    padding-top: 450px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 5% auto 0;
+}
+
+.quote-box {
+    position: absolute;
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 465px;
+    margin: 20px auto 0;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        background-size: cover;
+    }
+
+    .container {
+        width: 350px;
+        left: 7%;
+        top: 0%;
+        padding-top: 500px;
+        
+    }
+
+    .quote-box {
+        width: 300px;
+        left: 7%;
+        top: 60%;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        width: 400px;
+        left: 30%;
+    }
+
+    .quote-box {
+        width: 600px;
+        left: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 300px;
+        left: 41%;
+        top: 27%;
+        transform: translateY(-50%);
+    }
+
+    .quote-box {
+        width: 500px;
+        left: 34%;
+        top: 75%;
+        transform: translateY(-50%);
+    }
+}
