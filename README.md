@@ -1,6 +1,8 @@
 # LECI
 Licenciatura em Engenharia de Computadores e Informática
 
+https://www.ua.pt/pt/c/486/p
+
 Repository that contains documentation and some (not all) projects from my Computer and Informatics degree at University of Aveiro.
 
 **Disclaimer:** 
